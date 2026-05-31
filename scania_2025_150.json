@@ -149,7 +149,7 @@
           "gaugeOffX": 0,
           "gaugeOffY": 0,
           "gaugeSmoothMove": false,
-          "isVisible": false
+          "isVisible": true
         },
         {
           "id": "092a3ead-76a4-4022-a23e-dabe8e31204c",
@@ -945,7 +945,7 @@
           "gaugeOffX": 0,
           "gaugeOffY": 0,
           "gaugeSmoothMove": false,
-          "isVisible": false
+          "isVisible": true
         },
         {
           "id": "19ea0137-0775-46ed-a0c4-88c91b7ea692",
@@ -1251,7 +1251,7 @@
           "gaugeOffX": 0,
           "gaugeOffY": 0,
           "gaugeSmoothMove": false,
-          "isVisible": false
+          "isVisible": true
         },
         {
           "id": "e4e208dd-24c8-4eab-9817-ad523a42b25f",
@@ -3329,7 +3329,7 @@
           "dashboardId": 1190,
           "layer": 3,
           "fitting": null,
-          "textContent": "<color value=FFFFFFFF><img src=/material/ui/dashboard/scania_2025/display.mat xscale=stretch height=11 left=0.0029296875 right=0.3388671875 top=0.6533203125 bottom=0.6611328125>\r\n<img src=/material/ui/dashboard/scania_2025/display.mat xscale=stretch height=80 left=0.0029296875 right=0.3388671875 top=0.6612 bottom=0.6612>\r\n<img src=/material/ui/dashboard/scania_2025/display.mat xscale=stretch height=11 left=0.0029296875 right=0.3388671875 top=0.66015625 bottom=0.66796875>\r\n<ret>\r\n<color value=FF1BC2F1>\r\n<offset hshift=10 vshift=10><img src=/material/ui/dashboard/scania_2025/display.mat width=81 height=81 left=0.25 right=0.3125 top=0.8125 bottom=0.875>\r\n<color value=FFF0DBCC>\r\n<ret><offset hshift=110 vshift=20><font face=/font/db_scania_sans_cy_cond.font xscale xscale=2.22 yscale=2.1>Engine fault</font>\r\n<color value=FF988A7F>\r\n<ret><offset hshift=110 vshift=70><font face=/font/db_scania_sans_cy_cond.font xscale xscale=1.74 yscale=1.65>Visit workshop</font>",
+          "textContent": "<color value=FFFFFFFF><img src=/material/ui/dashboard/scania_2025/display.mat xscale=stretch height=11 left=0.0029296875 right=0.3388671875 top=0.6533203125 bottom=0.6611328125>\r\n<img src=/material/ui/dashboard/scania_2025/display.mat xscale=stretch height=120 left=0.0029296875 right=0.3388671875 top=0.6612 bottom=0.6612>\r\n<img src=/material/ui/dashboard/scania_2025/display.mat xscale=stretch height=11 left=0.0029296875 right=0.3388671875 top=0.66015625 bottom=0.66796875>\r\n<ret>\r\n<color value=FF1BC2F1>\r\n<offset hshift=10 vshift=10><img src=/material/ui/dashboard/scania_2025/display.mat width=81 height=81 left=0.25 right=0.3125 top=0.8125 bottom=0.875>\r\n<color value=FFF0DBCC>\r\n<ret><offset hshift=110 vshift=20><font face=/font/db_scania_sans_cy_cond.font xscale xscale=2.22 yscale=2.1>Engine fault</font>\r\n<color value=FF988A7F>\r\n<ret><offset hshift=110 vshift=70><font face=/font/db_scania_sans_cy_cond.font xscale xscale=1.74 yscale=1.65>Visit workshop</font>",
           "lookTemplate": "",
           "defaultValue": "",
           "isVertical": false,

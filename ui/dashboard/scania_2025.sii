@@ -1233,11 +1233,11 @@ ui::text_common : _nameless._.avg_cons {
  text: ""
  coords_l: 645
  coords_r: 890
- coords_t: 358
+ coords_t: 359
  coords_b: 306
  area_l: 645
  area_r: 890
- area_t: 358
+ area_t: 359
  area_b: 306
  id: 1170
  layer: 2
@@ -1726,11 +1726,11 @@ ui::text : _nameless._.scr_page5 {
 ui::text : _nameless._.oilp_txt {
  text: "<color value=FFF0DBCC><font face=/font/db_scania_sans_cy_cond.font xscale=1.5 yscale=1.5>Engine Oil Pressure</font>"
  coords_l: 511
- coords_r: 784
+ coords_r: 820
  coords_t: 375
  coords_b: 324
  area_l: 511
- area_r: 784
+ area_r: 820
  area_t: 375
  area_b: 324
  id: 0
