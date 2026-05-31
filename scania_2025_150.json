@@ -3261,7 +3261,7 @@
           "dashboardId": 0,
           "layer": 2,
           "fitting": null,
-          "textContent": "<color value=FFF0DBCC><align hstyle=center><font face=/font/db_scania_sans_cy_cond.font xscale=1.2 yscale=1.2>No notifications</font></align>",
+          "textContent": "<color value=FFF0DBCC><align hstyle=center><font face=/font/db_scania_sans_cy_cond.font xscale=1.8 yscale=1.8>No notifications</font></align>",
           "lookTemplate": "",
           "defaultValue": "",
           "isVertical": false,
@@ -3901,55 +3901,55 @@
     },
     {
       "name": "txt.scania_sd_25.spd_lmt",
-      "text": "<color value=FFFFFFFF><img src=/material/ui/dashboard/scania_2025/display.mat xscale=stretch yscale=stretch left=0.1875 right=0.25 top=0.875 bottom=0.9375><ret><color value=FFF0DBCC><offset vshift=4><align hstyle=center vstyle=center><font face=/font/db_scania_sans_cy_cond.font xscale=1.6 yscale=1.6>%0</font></align>"
+      "text": "<color value=FFFFFFFF><img src=/material/ui/dashboard/scania_2025/display.mat xscale=stretch yscale=stretch left=0.1875 right=0.25 top=0.875 bottom=0.9375><ret><color value=FFF0DBCC><offset vshift=4><align hstyle=center vstyle=center><font face=/font/db_scania_sans_cy_cond.font xscale=2.4 yscale=2.4>%0</font></align>"
     },
     {
       "name": "txt.scania_sd_25.speed",
-      "text": "<color value=FFF0DBCC><align hstyle=center><font face=/font/db_scania_sans_cy_headline_outlined.font xscale=3.7 yscale=4>%0</font></align><ret><align hstyle=right><offset vshift=7 hshift=20><font face=/font/db_scania_sans_cy_cond.font xscale=0.96 yscale=0.96><color value=FF867B72>%1</font></align>"
+      "text": "<color value=FFF0DBCC><align hstyle=center><font face=/font/db_scania_sans_cy_headline_outlined.font xscale=3.7 yscale=4>%0</font></align><ret><align hstyle=right><offset vshift=7 hshift=20><font face=/font/db_scania_sans_cy_cond.font xscale=1.44 yscale=1.44><color value=FF867B72>%1</font></align>"
     },
     {
       "name": "txt.scania_sd_25.speed_big",
-      "text": "<color value=FFF0DBCC><align hstyle=center><font face=/font/db_scania_sans_cy_headline_outlined.font xscale=6.5 yscale=7>%0</font></align><ret><align hstyle=right><offset vshift=7 hshift=20><font face=/font/db_scania_sans_cy_cond.font xscale=0.96 yscale=0.96><color value=FF867B72>%1</font></align>"
+      "text": "<color value=FFF0DBCC><align hstyle=center><font face=/font/db_scania_sans_cy_headline_outlined.font xscale=6.5 yscale=7>%0</font></align><ret><align hstyle=right><offset vshift=7 hshift=20><font face=/font/db_scania_sans_cy_cond.font xscale=1.44 yscale=1.44><color value=FF867B72>%1</font></align>"
     },
     {
       "name": "txt.scania_sd_25.temp",
-      "text": "<color value=FFF0DBCC><align hstyle=right><font face=/font/db_scania_sans_cy_cond.font xscale=1.28 yscale=1.28>%0 Â°%1</font></align>"
+      "text": "<color value=FFF0DBCC><align hstyle=right><font face=/font/db_scania_sans_cy_cond.font xscale=1.92 yscale=1.92>%0 Â°%1</font></align>"
     },
     {
       "name": "txt.scania_sd_25.trip_dst",
-      "text": "<color value=FFF0DBCC><align hstyle=right><font face=/font/db_scania_sans_cy_cond.font xscale=1.28 yscale=1.28>%0</font><offset vshift=4><font face=/font/db_scania_sans_cy_cond.font xscale=1 yscale=1>.0 %1</font></align>"
+      "text": "<color value=FFF0DBCC><align hstyle=right><font face=/font/db_scania_sans_cy_cond.font xscale=1.92 yscale=1.92>%0</font><offset vshift=4><font face=/font/db_scania_sans_cy_cond.font xscale=1.5 yscale=1.5>.0 %1</font></align>"
     },
     {
       "name": "txt.scania_sd_25.val2_bgray",
-      "text": "<color value=FFB0A195><align hstyle=left><font face=/font/db_scania_sans_cy_cond.font xscale=1.06 yscale=1.06>%0</font><offset vshift=4><font face=/font/db_scania_sans_cy_cond.font xscale=0.84 yscale=0.84> %1</font></align>"
+      "text": "<color value=FFB0A195><align hstyle=left><font face=/font/db_scania_sans_cy_cond.font xscale=1.59 yscale=1.59>%0</font><offset vshift=4><font face=/font/db_scania_sans_cy_cond.font xscale=1.26 yscale=1.26> %1</font></align>"
     },
     {
       "name": "txt.scania_sd_25.val2_white",
-      "text": "<color value=FFF0DBCC><align hstyle=left><font face=/font/db_scania_sans_cy_cond.font xscale=1.28 yscale=1.28>%0 </font><offset vshift=4><font face=/font/db_scania_sans_cy_cond.font xscale=1 yscale=1>%1</font></align>"
+      "text": "<color value=FFF0DBCC><align hstyle=left><font face=/font/db_scania_sans_cy_cond.font xscale=1.92 yscale=1.92>%0 </font><offset vshift=4><font face=/font/db_scania_sans_cy_cond.font xscale=1.5 yscale=1.5>%1</font></align>"
     },
     {
       "name": "txt.scania_sd_25.val2r_white",
-      "text": "<color value=FFF0DBCC><align hstyle=right><font face=/font/db_scania_sans_cy_cond.font xscale=1.28 yscale=1.28>%0 %1</font></align>"
+      "text": "<color value=FFF0DBCC><align hstyle=right><font face=/font/db_scania_sans_cy_cond.font xscale=1.92 yscale=1.92>%0 %1</font></align>"
     },
     {
       "name": "txt.scania_sd_25.vall_gray",
-      "text": "<color value=FF867B72><align hstyle=left><font face=/font/db_scania_sans_cy_cond.font xscale=1.35 yscale=1.35>%0</font></align>"
+      "text": "<color value=FF867B72><align hstyle=left><font face=/font/db_scania_sans_cy_cond.font xscale=2.15 yscale=2.15>%0</font></align>"
     },
     {
       "name": "txt.scania_sd_25.valprc_white",
-      "text": "<color value=FFF0DBCC><align hstyle=left><font face=/font/db_scania_sans_cy_cond.font xscale=1.28 yscale=1.28>%0</font><offset vshift=5><font face=/font/db_scania_sans_cy_cond.font xscale=1 yscale=1> %</font></align>"
+      "text": "<color value=FFF0DBCC><align hstyle=left><font face=/font/db_scania_sans_cy_cond.font xscale=1.92 yscale=1.92>%0</font><offset vshift=5><font face=/font/db_scania_sans_cy_cond.font xscale=1.5 yscale=1.5> %</font></align>"
     },
     {
       "name": "txt.scania_sd_25.valr_gray",
-      "text": "<color value=FF867B72><align hstyle=right><font face=/font/db_scania_sans_cy_cond.font xscale=1.35 yscale=1.35>%0</font></align>"
+      "text": "<color value=FF867B72><align hstyle=right><font face=/font/db_scania_sans_cy_cond.font xscale=2.15 yscale=2.15>%0</font></align>"
     },
     {
       "name": "txt.scania_sd_25.valr_green",
-      "text": "<color value=FF9FB200><align hstyle=right><font face=/font/db_scania_sans_cy_cond.font xscale=1.35 yscale=1.35>%0</font></align>"
+      "text": "<color value=FF9FB200><align hstyle=right><font face=/font/db_scania_sans_cy_cond.font xscale=2.15 yscale=2.15>%0</font></align>"
     },
     {
       "name": "txt.scania_sd_25.valr_white",
-      "text": "<color value=FFF0DBCC><align hstyle=right><font face=/font/db_scania_sans_cy_cond.font xscale=1.35 yscale=1.35>%0</font></align>"
+      "text": "<color value=FFF0DBCC><align hstyle=right><font face=/font/db_scania_sans_cy_cond.font xscale=2.15 yscale=2.15>%0</font></align>"
     },
     {
       "name": "txt.scania_sd_25.cct_green",
