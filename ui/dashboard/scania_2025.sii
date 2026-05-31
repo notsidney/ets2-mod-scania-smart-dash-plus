@@ -606,12 +606,12 @@ ui::text : _nameless._.cc_truck {
 
 ui::text : _nameless._.tripdst_i {
  text: "<color value=FFF0DBCC><img src=/material/ui/dashboard/scania_2025/display.mat xscale=stretch yscale=stretch left=0.0625 right=0.125 top=0.8125 bottom=0.875>"
- coords_l: 1034
- coords_r: 1066
+ coords_l: 1000
+ coords_r: 1032
  coords_t: 50
  coords_b: 18
- area_l: 1034
- area_r: 1066
+ area_l: 1000
+ area_r: 1032
  area_t: 50
  area_b: 18
  id: 0
@@ -814,11 +814,11 @@ ui::text_common : _nameless._.trip_dst {
  look_template: txt.scania_sd_25.trip_dst
  value: "92444|km"
  text: ""
- coords_l: 1068
+ coords_l: 1032
  coords_r: 1258
  coords_t: 53
  coords_b: 0
- area_l: 1068
+ area_l: 1032
  area_r: 1258
  area_t: 53
  area_b: 0
