@@ -4,13 +4,13 @@
   "dashboardFileName": "scania_2025",
   "screens": [
     {
-      "id": "110f2e95-7277-4b0b-8c49-392fd12485de",
+      "id": "e0ba34d0-c973-4e80-ae2a-94616e28828e",
       "unitName": "_nameless._.shared",
       "screenId": 950,
       "displayName": "_nameless._.shared (950)",
       "elements": [
         {
-          "id": "1d72a639-8bf4-4238-8e88-25fc73fea35a",
+          "id": "d3aada01-2d9f-44b7-af6c-8765392471ba",
           "elementType": "text",
           "name": "_nameless._.cc_truck",
           "parentName": "_nameless._.shared",
@@ -44,7 +44,7 @@
           "isVisible": true
         },
         {
-          "id": "0b286674-dee2-4e1b-a3ce-cc2a86246a8e",
+          "id": "60d3aeb7-b715-45a9-9f51-236ca4f98c06",
           "elementType": "text",
           "name": "_nameless._.bcg",
           "parentName": "_nameless._.shared",
@@ -75,10 +75,10 @@
           "gaugeOffX": 0,
           "gaugeOffY": 0,
           "gaugeSmoothMove": false,
-          "isVisible": false
+          "isVisible": true
         },
         {
-          "id": "5c3a36f4-b8e9-4327-b2fe-ccdb21e377a4",
+          "id": "ffb245f1-4681-4fb0-84c6-2843cf9c0549",
           "elementType": "group",
           "name": "_nameless._.cc",
           "parentName": "_nameless._.shared",
@@ -112,10 +112,10 @@
           "gaugeOffX": 0,
           "gaugeOffY": 0,
           "gaugeSmoothMove": false,
-          "isVisible": false
+          "isVisible": true
         },
         {
-          "id": "ceccd857-75a1-4076-8cb1-dee0304266d3",
+          "id": "c357830a-012f-4e7a-bef4-ec004907193c",
           "elementType": "group",
           "name": "_nameless._.low_airp",
           "parentName": "_nameless._.shared",
@@ -149,10 +149,10 @@
           "gaugeOffX": 0,
           "gaugeOffY": 0,
           "gaugeSmoothMove": false,
-          "isVisible": false
+          "isVisible": true
         },
         {
-          "id": "092a3ead-76a4-4022-a23e-dabe8e31204c",
+          "id": "12f540cb-2c07-4549-9afc-21e8a156c659",
           "elementType": "group",
           "name": "_nameless._.shared",
           "parentName": "_nameless.wnd",
@@ -202,8 +202,7 @@
             "_nameless._.cons_ins_bcg",
             "_nameless._.cons_ins_bar",
             "_nameless._.low_airp",
-            "_nameless._.dmg_wrn",
-            "_nameless._cp"
+            "_nameless._.dmg_wrn"
           ],
           "coordsL": 0,
           "coordsR": 1440,
@@ -234,7 +233,7 @@
           "isVisible": true
         },
         {
-          "id": "bc407118-877c-415b-9766-4688e1f7ce8f",
+          "id": "0f2ef1ce-9c32-4bb9-9920-d5e118710acf",
           "elementType": "text",
           "name": "_nameless._.cc_lanes",
           "parentName": "_nameless._.shared",
@@ -268,15 +267,15 @@
           "isVisible": true
         },
         {
-          "id": "0ca6786b-908f-43e8-b3d0-4a90b08ceb69",
+          "id": "4ff19ef9-61c6-476e-b15c-2b1136258d20",
           "elementType": "textCommon",
           "name": "_nameless._.gear",
           "parentName": "_nameless._.shared",
           "childNames": [],
-          "coordsL": 871,
-          "coordsR": 971,
-          "coordsT": 424,
-          "coordsB": 376,
+          "coordsL": 896,
+          "coordsR": 963,
+          "coordsT": 443,
+          "coordsB": 411,
           "dashboardId": 1300,
           "layer": 1,
           "fitting": null,
@@ -302,15 +301,15 @@
           "isVisible": true
         },
         {
-          "id": "da9c2d72-014b-4e01-9d28-ca6eedd89f0c",
+          "id": "6cf62d40-9cea-4421-aa63-484cd15fd2c3",
           "elementType": "textCommon",
           "name": "_nameless._.gear_modd",
           "parentName": "_nameless._.shared",
           "childNames": [],
-          "coordsL": 871,
+          "coordsL": 896,
           "coordsR": 946,
           "coordsT": 479,
-          "coordsB": 423,
+          "coordsB": 442,
           "dashboardId": 1380,
           "layer": 1,
           "fitting": null,
@@ -336,15 +335,15 @@
           "isVisible": true
         },
         {
-          "id": "bfcc44cc-cb69-468e-9a5a-8801c4974d10",
+          "id": "506fe6b7-d5e8-4267-a3d3-776b0ce76876",
           "elementType": "textCommon",
           "name": "_nameless._.gear_mode",
           "parentName": "_nameless._.shared",
           "childNames": [],
-          "coordsL": 871,
+          "coordsL": 896,
           "coordsR": 946,
           "coordsT": 479,
-          "coordsB": 423,
+          "coordsB": 442,
           "dashboardId": 1310,
           "layer": 1,
           "fitting": null,
@@ -370,15 +369,15 @@
           "isVisible": true
         },
         {
-          "id": "f77affeb-f00b-45af-8cd1-e1b5e16c8329",
+          "id": "4dde9833-e819-4b84-8177-18f30ca8f261",
           "elementType": "text",
           "name": "_nameless._.gear_mode_i",
           "parentName": "_nameless._.shared",
           "childNames": [],
           "coordsL": 956,
-          "coordsR": 1004,
-          "coordsT": 492,
-          "coordsB": 444,
+          "coordsR": 988,
+          "coordsT": 484,
+          "coordsB": 452,
           "dashboardId": 0,
           "layer": 1,
           "fitting": null,
@@ -404,7 +403,7 @@
           "isVisible": true
         },
         {
-          "id": "ef4a13a1-3ab3-410f-a694-f16b8709f69b",
+          "id": "85e55d85-4c6a-4964-91c7-fdafd2f8199a",
           "elementType": "textBar",
           "name": "_nameless._.rpm_base",
           "parentName": "_nameless._.shared",
@@ -438,7 +437,7 @@
           "isVisible": true
         },
         {
-          "id": "8fb11faa-312a-4d4d-b171-e84a4bd83b73",
+          "id": "51894730-d01f-4774-899d-8e8572e59d03",
           "elementType": "textCommon",
           "name": "_nameless._.speed",
           "parentName": "_nameless._.shared",
@@ -472,7 +471,7 @@
           "isVisible": true
         },
         {
-          "id": "00f2ee1f-53b2-475b-95a2-798cd220bfcf",
+          "id": "4f8ebe13-48fd-46b6-99aa-658b057904e6",
           "elementType": "textBar",
           "name": "_nameless._.speed_base",
           "parentName": "_nameless._.shared",
@@ -506,19 +505,19 @@
           "isVisible": true
         },
         {
-          "id": "606e6141-04ee-4c5e-b636-170e6df50783",
+          "id": "7aab7829-149f-4692-94c1-b0ecfd866724",
           "elementType": "textBar",
           "name": "_nameless._.airp_bar",
           "parentName": "_nameless._.shared",
           "childNames": [],
           "coordsL": 111,
           "coordsR": 251,
-          "coordsT": 355,
-          "coordsB": 196,
+          "coordsT": 328,
+          "coordsB": 222,
           "dashboardId": 1120,
           "layer": 2,
           "fitting": null,
-          "textContent": "<color value=FF9FB200>\r\n<img src=/material/ui/white.mat xscale=stretch height=6>\r\n<ret><offset vshift=77><img src=/material/ui/white.mat xscale=stretch height=6>\r\n<ret><offset vshift=153><img src=/material/ui/white.mat xscale=stretch height=6>",
+          "textContent": "<color value=FF9FB200>\r\n<img src=/material/ui/white.mat xscale=stretch height=4>\r\n<ret><offset vshift=51><img src=/material/ui/white.mat xscale=stretch height=4>\r\n<ret><offset vshift=102><img src=/material/ui/white.mat xscale=stretch height=4>",
           "lookTemplate": "",
           "defaultValue": "",
           "isVertical": false,
@@ -540,19 +539,19 @@
           "isVisible": true
         },
         {
-          "id": "2809f5d9-70c2-4988-ad9c-aa84ed1ce16a",
+          "id": "16990611-14ea-4497-9fc0-5727a5fcacd3",
           "elementType": "text",
           "name": "_nameless._.airp_bar_bcg",
           "parentName": "_nameless._.shared",
           "childNames": [],
           "coordsL": 111,
           "coordsR": 291,
-          "coordsT": 346,
-          "coordsB": 187,
+          "coordsT": 319,
+          "coordsB": 213,
           "dashboardId": 0,
           "layer": 2,
           "fitting": null,
-          "textContent": "<color value=FF736962><img src=/material/ui/white.mat height=6 width=87>\r\n<color value=FF4C521D><offset hshift=6><img src=/material/ui/white.mat xscale=stretch height=6>\r\n<br><offset vshift=62>\r\n<color value=FF736962><img src=/material/ui/white.mat height=6 width=87>\r\n<color value=FF4C521D><offset hshift=6><img src=/material/ui/white.mat xscale=stretch height=6>\r\n<br><offset vshift=62>\r\n<color value=FF736962><img src=/material/ui/white.mat height=6 width=87>\r\n<color value=FF4C521D><offset hshift=6><img src=/material/ui/white.mat width=42 height=6>\r\n<color value=FF736962><offset hshift=6><img src=/material/ui/white.mat xscale=stretch height=6>",
+          "textContent": "<color value=FF736962><img src=/material/ui/white.mat height=4 width=87>\r\n<color value=FF4C521D><offset hshift=6><img src=/material/ui/white.mat xscale=stretch height=4>\r\n<br><offset vshift=33>\r\n<color value=FF736962><img src=/material/ui/white.mat height=4 width=87>\r\n<color value=FF4C521D><offset hshift=6><img src=/material/ui/white.mat xscale=stretch height=4>\r\n<br><offset vshift=33>\r\n<color value=FF736962><img src=/material/ui/white.mat height=4 width=87>\r\n<color value=FF4C521D><offset hshift=6><img src=/material/ui/white.mat width=42 height=4>\r\n<color value=FF736962><offset hshift=6><img src=/material/ui/white.mat xscale=stretch height=4>",
           "lookTemplate": "",
           "defaultValue": "",
           "isVertical": false,
@@ -574,19 +573,19 @@
           "isVisible": true
         },
         {
-          "id": "73ff80e7-32f3-4f92-b579-169c7f109da8",
+          "id": "a7fc1cb7-4d37-4d9c-b205-0e0c579ad107",
           "elementType": "text",
           "name": "_nameless._.airp_i",
           "parentName": "_nameless._.shared",
           "childNames": [],
-          "coordsL": 47,
+          "coordsL": 64,
           "coordsR": 98,
-          "coordsT": 373,
-          "coordsB": 169,
+          "coordsT": 339,
+          "coordsB": 203,
           "dashboardId": 0,
           "layer": 2,
           "fitting": null,
-          "textContent": "<color value=FFB0A195>\r\n<align vstyle=top><img src=/material/ui/dashboard/scania_2025/display.mat width=51 height=51 left=0 right=0.0625 top=0.875 bottom=0.9375></align>\r\n<ret>\r\n<align vstyle=center><img src=/material/ui/dashboard/scania_2025/display.mat width=51 height=51 left=0 right=0.0625 top=0.875 bottom=0.9375></align>\r\n<ret>\r\n<align vstyle=bottom><img src=/material/ui/dashboard/scania_2025/display.mat width=51 height=51 left=0 right=0.0625 top=0.875 bottom=0.9375></align>\r\n<ret>\r\n<font face=/font/db_scania_sans_cy_cond.font xscale=1.305 yscale=1.305>\r\n<offset vshift=15 hshift=19>1\r\n<ret>\r\n<offset vshift=91 hshift=18>2\r\n<ret>\r\n<offset vshift=168 hshift=18>P\r\n</font>",
+          "textContent": "<color value=FFB0A195>\r\n<align vstyle=top><img src=/material/ui/dashboard/scania_2025/display.mat width=34 height=34 left=0 right=0.0625 top=0.875 bottom=0.9375></align>\r\n<ret>\r\n<align vstyle=center><img src=/material/ui/dashboard/scania_2025/display.mat width=34 height=34 left=0 right=0.0625 top=0.875 bottom=0.9375></align>\r\n<ret>\r\n<align vstyle=bottom><img src=/material/ui/dashboard/scania_2025/display.mat width=34 height=34 left=0 right=0.0625 top=0.875 bottom=0.9375></align>\r\n<ret>\r\n<font face=/font/db_scania_sans_cy_cond.font xscale=0.87 yscale=0.87>\r\n<offset vshift=10 hshift=13>1\r\n<ret>\r\n<offset vshift=61 hshift=12>2\r\n<ret>\r\n<offset vshift=112 hshift=12>P\r\n</font>",
           "lookTemplate": "",
           "defaultValue": "",
           "isVertical": false,
@@ -608,14 +607,14 @@
           "isVisible": true
         },
         {
-          "id": "c0a57e66-ac10-468d-aec1-d4546e1f4a99",
+          "id": "c039ba08-f91d-495f-977b-77168db158f4",
           "elementType": "textCommon",
           "name": "_nameless._.cons_avg",
           "parentName": "_nameless._.shared",
           "childNames": [],
           "coordsL": 1202,
-          "coordsR": 1402,
-          "coordsT": 366,
+          "coordsR": 1382,
+          "coordsT": 346,
           "coordsB": 306,
           "dashboardId": 1170,
           "layer": 2,
@@ -642,14 +641,14 @@
           "isVisible": true
         },
         {
-          "id": "31703d34-18e1-40b7-b207-8874f1855e4d",
+          "id": "1ae80aca-e93b-453a-a8d6-0e623b0dde71",
           "elementType": "text",
           "name": "_nameless._.cons_avg_i",
           "parentName": "_nameless._.shared",
           "childNames": [],
-          "coordsL": 1131,
+          "coordsL": 1153,
           "coordsR": 1197,
-          "coordsT": 383,
+          "coordsT": 361,
           "coordsB": 317,
           "dashboardId": 0,
           "layer": 2,
@@ -676,15 +675,15 @@
           "isVisible": true
         },
         {
-          "id": "0e75204b-95fb-474c-b420-9914a99d7555",
+          "id": "e9f5f9a1-d82f-4824-9984-4162b71d4ee6",
           "elementType": "textCommon",
           "name": "_nameless._.cons_ins",
           "parentName": "_nameless._.shared",
           "childNames": [],
           "coordsL": 1195,
-          "coordsR": 1395,
+          "coordsR": 1375,
           "coordsT": 274,
-          "coordsB": 214,
+          "coordsB": 234,
           "dashboardId": 1160,
           "layer": 2,
           "fitting": null,
@@ -710,15 +709,15 @@
           "isVisible": true
         },
         {
-          "id": "c4cd321b-1f22-4d5f-b198-03e60b52d534",
+          "id": "6e11377f-c3a9-44cd-9202-76d7270115cf",
           "elementType": "textBar",
           "name": "_nameless._.cons_ins_bar",
           "parentName": "_nameless._.shared",
           "childNames": [],
-          "coordsL": 1147,
+          "coordsL": 1152,
           "coordsR": 1292,
-          "coordsT": 228,
-          "coordsB": 222,
+          "coordsT": 243,
+          "coordsB": 239,
           "dashboardId": 1350,
           "layer": 2,
           "fitting": null,
@@ -744,15 +743,15 @@
           "isVisible": true
         },
         {
-          "id": "16b07064-6233-4b7a-8f28-f04045b61df5",
+          "id": "8652936d-8945-42a1-8877-86cf8c5dfee0",
           "elementType": "text",
           "name": "_nameless._.cons_ins_bcg",
           "parentName": "_nameless._.shared",
           "childNames": [],
-          "coordsL": 1147,
+          "coordsL": 1152,
           "coordsR": 1380,
-          "coordsT": 217,
-          "coordsB": 212,
+          "coordsT": 234,
+          "coordsB": 230,
           "dashboardId": 0,
           "layer": 2,
           "fitting": null,
@@ -778,15 +777,15 @@
           "isVisible": true
         },
         {
-          "id": "c6e7c27e-5c0e-4177-b055-03c75b9219f1",
+          "id": "b9150efb-9e40-4048-afef-5c3b37eb9561",
           "elementType": "text",
           "name": "_nameless._.cons_ins_i",
           "parentName": "_nameless._.shared",
           "childNames": [],
-          "coordsL": 1141,
+          "coordsL": 1156,
           "coordsR": 1186,
           "coordsT": 282,
-          "coordsB": 237,
+          "coordsB": 252,
           "dashboardId": 0,
           "layer": 2,
           "fitting": null,
@@ -812,7 +811,7 @@
           "isVisible": true
         },
         {
-          "id": "87335e96-f88d-4a45-900a-612bdc00ba39",
+          "id": "fe9b9777-5817-45e2-b2e0-727dd5ee33fd",
           "elementType": "textBar",
           "name": "_nameless._.rpm_over",
           "parentName": "_nameless._.shared",
@@ -846,7 +845,7 @@
           "isVisible": true
         },
         {
-          "id": "81081a24-589f-4217-a487-b0269a2bae0e",
+          "id": "e14672e5-3d8c-4fe4-ac8e-0e3e1f76f459",
           "elementType": "textBar",
           "name": "_nameless._.speed_over",
           "parentName": "_nameless._.shared",
@@ -880,7 +879,7 @@
           "isVisible": true
         },
         {
-          "id": "2e25b54b-aa92-46e8-a130-e45f70f7efe1",
+          "id": "f151216f-662c-4f62-aaa7-29e07a495c1f",
           "elementType": "textBar",
           "name": "_nameless._.airp_bar1",
           "parentName": "_nameless._.low_airp",
@@ -914,7 +913,7 @@
           "isVisible": true
         },
         {
-          "id": "cba26cf4-c091-42c6-a203-4e5089058273",
+          "id": "282b4f89-7d81-460e-9270-1e79cd68695a",
           "elementType": "text",
           "name": "_nameless._.bars_nums",
           "parentName": "_nameless._.shared",
@@ -945,10 +944,10 @@
           "gaugeOffX": 0,
           "gaugeOffY": 0,
           "gaugeSmoothMove": false,
-          "isVisible": false
+          "isVisible": true
         },
         {
-          "id": "19ea0137-0775-46ed-a0c4-88c91b7ea692",
+          "id": "7dd7b13e-834c-4d46-9066-8bf4ed3ba205",
           "elementType": "text",
           "name": "_nameless._.cc_ico",
           "parentName": "_nameless._.cc",
@@ -982,7 +981,7 @@
           "isVisible": true
         },
         {
-          "id": "2f5faf57-0285-4b92-b6d7-4564ad5e5573",
+          "id": "50e54f4f-c023-4b83-82f9-85ad8af32d10",
           "elementType": "textCommon",
           "name": "_nameless._.cc_speed",
           "parentName": "_nameless._.cc",
@@ -1016,15 +1015,15 @@
           "isVisible": true
         },
         {
-          "id": "74e1d9c5-7189-48e9-8531-04e3c5458ff0",
+          "id": "bee49838-5bb2-4e41-a9a5-f16a57978101",
           "elementType": "textBar",
           "name": "_nameless._.adbl_bar",
           "parentName": "_nameless._.shared",
           "childNames": [],
-          "coordsL": 1326,
-          "coordsR": 1410,
-          "coordsT": 40,
-          "coordsB": 34,
+          "coordsL": 1313,
+          "coordsR": 1405,
+          "coordsT": 26,
+          "coordsB": 22,
           "dashboardId": 1140,
           "layer": 5,
           "fitting": null,
@@ -1050,15 +1049,15 @@
           "isVisible": true
         },
         {
-          "id": "6effcd5e-0430-46a1-91c7-59175cf1c4ba",
+          "id": "ff839efb-87ae-41f5-b6d7-884cd5e11000",
           "elementType": "text",
           "name": "_nameless._.adbl_bar_bcg",
           "parentName": "_nameless._.shared",
           "childNames": [],
-          "coordsL": 1326,
-          "coordsR": 1410,
-          "coordsT": 29,
-          "coordsB": 24,
+          "coordsL": 1313,
+          "coordsR": 1405,
+          "coordsT": 18,
+          "coordsB": 15,
           "dashboardId": 0,
           "layer": 5,
           "fitting": null,
@@ -1084,14 +1083,14 @@
           "isVisible": true
         },
         {
-          "id": "38b73fe9-6bc1-4d95-8384-ece26ae4b4e5",
+          "id": "1bcc97e8-9eb3-4f23-a5e2-8be7e9eadc2e",
           "elementType": "text",
           "name": "_nameless._.adblue_i",
           "parentName": "_nameless._.shared",
           "childNames": [],
           "coordsL": 1274,
-          "coordsR": 1322,
-          "coordsT": 56,
+          "coordsR": 1306,
+          "coordsT": 40,
           "coordsB": 8,
           "dashboardId": 0,
           "layer": 5,
@@ -1118,14 +1117,14 @@
           "isVisible": true
         },
         {
-          "id": "f0ca84d8-e9d0-4fca-8695-4862db658e92",
+          "id": "cd8cc89e-7c80-4292-8cad-8bfedfdcf917",
           "elementType": "textCommon",
           "name": "_nameless._.ambient_temp",
           "parentName": "_nameless._.shared",
           "childNames": [],
-          "coordsL": 775,
+          "coordsL": 839,
           "coordsR": 967,
-          "coordsT": 53,
+          "coordsT": 35,
           "coordsB": 0,
           "dashboardId": 1000,
           "layer": 5,
@@ -1152,14 +1151,14 @@
           "isVisible": true
         },
         {
-          "id": "46ff730a-5bfd-4da7-9d18-2cec1d41ea5d",
+          "id": "9095abfe-30b4-46a4-8b27-8b4692018849",
           "elementType": "textCommon",
           "name": "_nameless._.clock",
           "parentName": "_nameless._.shared",
           "childNames": [],
-          "coordsL": 432,
-          "coordsR": 624,
-          "coordsT": 53,
+          "coordsL": 415,
+          "coordsR": 543,
+          "coordsT": 35,
           "coordsB": 0,
           "dashboardId": 1050,
           "layer": 5,
@@ -1186,15 +1185,15 @@
           "isVisible": true
         },
         {
-          "id": "a4eb3c09-fc75-45cd-bb64-08d4ec6d8115",
+          "id": "9188c235-ad05-4cfd-885f-1e292c4d32d4",
           "elementType": "text",
           "name": "_nameless._.diff_lock_i",
           "parentName": "_nameless._.shared",
           "childNames": [],
-          "coordsL": 1363,
+          "coordsL": 1385,
           "coordsR": 1429,
           "coordsT": 535,
-          "coordsB": 469,
+          "coordsB": 491,
           "dashboardId": 1490,
           "layer": 5,
           "fitting": null,
@@ -1220,7 +1219,7 @@
           "isVisible": true
         },
         {
-          "id": "bf82de6b-69d4-46c6-b811-4f0c4a087a32",
+          "id": "765216ab-a459-48bc-92fd-e022acb7787d",
           "elementType": "text",
           "name": "_nameless._.dmg_wrn",
           "parentName": "_nameless._.shared",
@@ -1251,18 +1250,18 @@
           "gaugeOffX": 0,
           "gaugeOffY": 0,
           "gaugeSmoothMove": false,
-          "isVisible": false
+          "isVisible": true
         },
         {
-          "id": "e4e208dd-24c8-4eab-9817-ad523a42b25f",
+          "id": "f9b2d5b2-7b8e-486b-b4cb-73a7cdf9e7d1",
           "elementType": "text",
           "name": "_nameless._.eng_dmg_i",
           "parentName": "_nameless._.shared",
           "childNames": [],
           "coordsL": 1169,
-          "coordsR": 1235,
+          "coordsR": 1213,
           "coordsT": 536,
-          "coordsB": 470,
+          "coordsB": 492,
           "dashboardId": 1190,
           "layer": 5,
           "fitting": null,
@@ -1288,15 +1287,15 @@
           "isVisible": true
         },
         {
-          "id": "332c96ec-6e27-4089-a796-74d8df7988d8",
+          "id": "a8f5d911-4a74-46e5-887b-5f75426e60d4",
           "elementType": "textBar",
           "name": "_nameless._.fuel_bar",
           "parentName": "_nameless._.shared",
           "childNames": [],
           "coordsL": 77,
           "coordsR": 223,
-          "coordsT": 40,
-          "coordsB": 34,
+          "coordsT": 27,
+          "coordsB": 23,
           "dashboardId": 1070,
           "layer": 5,
           "fitting": null,
@@ -1322,15 +1321,15 @@
           "isVisible": true
         },
         {
-          "id": "b25f7bbe-c148-407c-baa9-c4a1bfe3707c",
+          "id": "98ad236f-93b0-4d0a-aea0-f481b3112b48",
           "elementType": "text",
           "name": "_nameless._.fuel_bar_bcg",
           "parentName": "_nameless._.shared",
           "childNames": [],
           "coordsL": 77,
           "coordsR": 223,
-          "coordsT": 29,
-          "coordsB": 24,
+          "coordsT": 18,
+          "coordsB": 15,
           "dashboardId": 0,
           "layer": 5,
           "fitting": null,
@@ -1356,14 +1355,14 @@
           "isVisible": true
         },
         {
-          "id": "55460528-6be2-408b-bd22-38cf8effcd95",
+          "id": "d0a1321e-3ad4-4adc-8084-444328b4985d",
           "elementType": "text",
           "name": "_nameless._.fuel_i",
           "parentName": "_nameless._.shared",
           "childNames": [],
-          "coordsL": 25,
+          "coordsL": 40,
           "coordsR": 70,
-          "coordsT": 54,
+          "coordsT": 39,
           "coordsB": 9,
           "dashboardId": 0,
           "layer": 5,
@@ -1390,19 +1389,19 @@
           "isVisible": true
         },
         {
-          "id": "fab3ec7e-4357-4c31-afbc-faa75017d2aa",
+          "id": "831bc158-29d0-4377-b456-188df281cea9",
           "elementType": "text",
-          "name": "_nameless._.lbeam_i",
+          "name": "_nameless._.hbeam_i",
           "parentName": "_nameless._.shared",
           "childNames": [],
-          "coordsL": 11,
-          "coordsR": 77,
+          "coordsL": 65,
+          "coordsR": 109,
           "coordsT": 535,
-          "coordsB": 469,
-          "dashboardId": 1480,
+          "coordsB": 491,
+          "dashboardId": 1590,
           "layer": 5,
           "fitting": null,
-          "textContent": "<color value=FF9FB200><img src=/material/ui/dashboard/scania_2025/display.mat xscale=stretch yscale=stretch left=0 right=0.0625 top=0.9375 bottom=1>",
+          "textContent": "<color value=FFF38849><img src=/material/ui/dashboard/scania_2025/display.mat xscale=stretch yscale=stretch left=0 right=0.0625 top=0.9375 bottom=1>",
           "lookTemplate": "",
           "defaultValue": "",
           "isVertical": false,
@@ -1424,15 +1423,15 @@
           "isVisible": true
         },
         {
-          "id": "68065b75-3a65-4e1c-89f4-2e1b8f45decc",
+          "id": "ea2fd7fe-bad2-4412-a915-79f5b4792998",
           "elementType": "text",
           "name": "_nameless._.lblink_i",
           "parentName": "_nameless._.shared",
           "childNames": [],
-          "coordsL": 391,
+          "coordsL": 413,
           "coordsR": 457,
           "coordsT": 535,
-          "coordsB": 469,
+          "coordsB": 491,
           "dashboardId": 1570,
           "layer": 5,
           "fitting": null,
@@ -1458,15 +1457,15 @@
           "isVisible": true
         },
         {
-          "id": "0ed1dde1-641d-4319-839a-145f8eaeb8e7",
+          "id": "c758ccc3-71a4-4524-804e-418acc57b339",
           "elementType": "text",
           "name": "_nameless._.lowp_i",
           "parentName": "_nameless._.shared",
           "childNames": [],
-          "coordsL": 205,
+          "coordsL": 227,
           "coordsR": 271,
           "coordsT": 535,
-          "coordsB": 469,
+          "coordsB": 491,
           "dashboardId": 1260,
           "layer": 5,
           "fitting": null,
@@ -1492,15 +1491,15 @@
           "isVisible": true
         },
         {
-          "id": "d3e7b190-2a16-48ec-adf3-49fb3bff1f02",
+          "id": "6546dda3-68fb-4db8-8bbd-6b0aa3d299e6",
           "elementType": "text",
           "name": "_nameless._.pbrake_i",
           "parentName": "_nameless._.shared",
           "childNames": [],
-          "coordsL": 138,
-          "coordsR": 204,
-          "coordsT": 471,
-          "coordsB": 405,
+          "coordsL": 173,
+          "coordsR": 217,
+          "coordsT": 493,
+          "coordsB": 449,
           "dashboardId": 1270,
           "layer": 5,
           "fitting": null,
@@ -1526,14 +1525,14 @@
           "isVisible": true
         },
         {
-          "id": "80f998cb-2502-43f2-9d6c-48d7b32cced9",
+          "id": "b0d4d842-7ed7-499b-9468-c1bbe3543a4a",
           "elementType": "textCommon",
           "name": "_nameless._.range",
           "parentName": "_nameless._.shared",
           "childNames": [],
-          "coordsL": 284,
-          "coordsR": 478,
-          "coordsT": 53,
+          "coordsL": 269,
+          "coordsR": 398,
+          "coordsT": 35,
           "coordsB": 0,
           "dashboardId": 1080,
           "layer": 5,
@@ -1560,15 +1559,15 @@
           "isVisible": true
         },
         {
-          "id": "5feebadf-8cb8-4e37-ab83-149e10a3df46",
+          "id": "0917019b-5407-459b-a451-9ecf737de5e5",
           "elementType": "text",
           "name": "_nameless._.rblink_i",
           "parentName": "_nameless._.shared",
           "childNames": [],
           "coordsL": 983,
-          "coordsR": 1049,
+          "coordsR": 1027,
           "coordsT": 535,
-          "coordsB": 469,
+          "coordsB": 491,
           "dashboardId": 1580,
           "layer": 5,
           "fitting": null,
@@ -1594,14 +1593,14 @@
           "isVisible": true
         },
         {
-          "id": "a350ec9d-5d70-4f40-b476-9851ede3f4e3",
+          "id": "c2e49a9b-76c6-4319-a404-2a416075a0a2",
           "elementType": "text",
           "name": "_nameless._.rem_dist_i",
           "parentName": "_nameless._.shared",
           "childNames": [],
           "coordsL": 231,
-          "coordsR": 276,
-          "coordsT": 54,
+          "coordsR": 261,
+          "coordsT": 39,
           "coordsB": 9,
           "dashboardId": 0,
           "layer": 5,
@@ -1628,15 +1627,15 @@
           "isVisible": true
         },
         {
-          "id": "2a0316fa-f8fb-4b07-9e41-0566e3315f36",
+          "id": "107ca639-22cd-4a48-bdab-61f226ac70b6",
           "elementType": "text",
           "name": "_nameless._.retarder_i",
           "parentName": "_nameless._.shared",
           "childNames": [],
-          "coordsL": 205,
+          "coordsL": 227,
           "coordsR": 271,
-          "coordsT": 471,
-          "coordsB": 405,
+          "coordsT": 493,
+          "coordsB": 449,
           "dashboardId": 1290,
           "layer": 5,
           "fitting": null,
@@ -1662,15 +1661,15 @@
           "isVisible": true
         },
         {
-          "id": "c6f24b33-afc2-423b-9088-2bc38f3215c0",
+          "id": "836af461-89cb-44fc-94b0-76b9da9b9856",
           "elementType": "text",
           "name": "_nameless._.tripdst_i",
           "parentName": "_nameless._.shared",
           "childNames": [],
-          "coordsL": 1018,
-          "coordsR": 1066,
-          "coordsT": 55,
-          "coordsB": 7,
+          "coordsL": 1098,
+          "coordsR": 1122,
+          "coordsT": 36,
+          "coordsB": 12,
           "dashboardId": 0,
           "layer": 5,
           "fitting": null,
@@ -1696,7 +1695,7 @@
           "isVisible": true
         },
         {
-          "id": "7c819ebd-e61e-4269-a855-7ac948dbb310",
+          "id": "c0c58f2d-e175-4d9b-9e1d-6154773d05af",
           "elementType": "text",
           "name": "_nameless._.wrn_title",
           "parentName": "_nameless._.low_airp",
@@ -1730,14 +1729,14 @@
           "isVisible": true
         },
         {
-          "id": "fb82b391-d585-43e7-905b-29b811731e42",
+          "id": "ee3165d9-c165-4161-93b0-0dfb2f2efa18",
           "elementType": "text",
           "name": "_nameless._.low_fuel_i",
           "parentName": "_nameless._.shared",
           "childNames": [],
-          "coordsL": 25,
+          "coordsL": 40,
           "coordsR": 70,
-          "coordsT": 54,
+          "coordsT": 39,
           "coordsB": 9,
           "dashboardId": 1200,
           "layer": 6,
@@ -1764,14 +1763,14 @@
           "isVisible": true
         },
         {
-          "id": "3bfe1554-b554-4393-979d-2a19cd07d91d",
+          "id": "62d18a44-7d2b-4e1c-b738-aa11d33a076e",
           "elementType": "textCommon",
           "name": "_nameless._.trip_dst",
           "parentName": "_nameless._.shared",
           "childNames": [],
-          "coordsL": 1015,
+          "coordsL": 1096,
           "coordsR": 1258,
-          "coordsT": 53,
+          "coordsT": 35,
           "coordsB": 0,
           "dashboardId": 1210,
           "layer": 58,
@@ -1796,51 +1795,17 @@
           "gaugeOffY": 0,
           "gaugeSmoothMove": false,
           "isVisible": true
-        },
-        {
-          "id": "d8efe91a-1520-4367-95a1-00a2baea53ac",
-          "elementType": "text",
-          "name": "_nameless.hbeam_i",
-          "parentName": "_nameless._.shared",
-          "childNames": [],
-          "coordsL": 78,
-          "coordsR": 144,
-          "coordsT": 535,
-          "coordsB": 469,
-          "dashboardId": 1590,
-          "layer": 5,
-          "fitting": null,
-          "textContent": "<color value=FFF38849><img src=/material/ui/dashboard/scania_2025/display.mat xscale=stretch yscale=stretch left=0 right=0.0625 top=0.9375 bottom=1>",
-          "lookTemplate": "",
-          "defaultValue": "",
-          "isVertical": false,
-          "barMinValue": 0.0,
-          "barMaxValue": 0.0,
-          "barMinSize": 0,
-          "barMaxSize": 0,
-          "gaugeMinAngle": 0.0,
-          "gaugeMaxAngle": 0.0,
-          "gaugeValueMin": 0.0,
-          "gaugeValueMax": 0.0,
-          "gaugeValueOff": 0.0,
-          "gaugeMaterial": "",
-          "gaugeXrefPos": 0,
-          "gaugeYrefPos": 0,
-          "gaugeOffX": 0,
-          "gaugeOffY": 0,
-          "gaugeSmoothMove": false,
-          "isVisible": true
         }
       ]
     },
     {
-      "id": "7ef5d699-5dea-4b63-8643-a4807bb14d32",
+      "id": "a560ff5e-f327-4667-9dfd-aa42a79500df",
       "unitName": "_nameless._.display1",
       "screenId": 100,
       "displayName": "_nameless._.display1 (100)",
       "elements": [
         {
-          "id": "682285e1-985b-4ada-8cdc-f20440ca8c90",
+          "id": "304ecbb2-d46c-4bca-a752-8e96b9fcaab0",
           "elementType": "group",
           "name": "_nameless._.display1",
           "parentName": "_nameless.wnd",
@@ -1879,7 +1844,7 @@
           "isVisible": true
         },
         {
-          "id": "d3256b71-7475-4caa-822d-9629d9a147fe",
+          "id": "aaed79d4-cba0-4ae8-8c56-9a79ece6d5d8",
           "elementType": "textCommon",
           "name": "_nameless._.no_spd_lmt",
           "parentName": "_nameless._.display1",
@@ -1913,7 +1878,7 @@
           "isVisible": true
         },
         {
-          "id": "5478d37a-1287-4dae-8481-bed2b95dc4c7",
+          "id": "29162769-206c-4722-8229-fbe7c5b2de76",
           "elementType": "text",
           "name": "_nameless._.scr_page1",
           "parentName": "_nameless._.display1",
@@ -1947,7 +1912,7 @@
           "isVisible": true
         },
         {
-          "id": "b18a472c-3960-468b-9341-d1a334d03970",
+          "id": "ab7a1e03-5358-4dab-a4ce-dd16160a19a5",
           "elementType": "text",
           "name": "_nameless._.bcg1",
           "parentName": "_nameless._.display1",
@@ -1981,7 +1946,7 @@
           "isVisible": true
         },
         {
-          "id": "1c3c7246-34ea-4da0-aba9-e34e4b240d2e",
+          "id": "60f0ee1e-420d-4796-a70b-0380afc4090a",
           "elementType": "textCommon",
           "name": "_nameless._.spd_lmt",
           "parentName": "_nameless._.display1",
@@ -2017,13 +1982,13 @@
       ]
     },
     {
-      "id": "e2e57ad2-d850-499c-8e9e-0d52a8dca7a3",
+      "id": "139a5d82-0288-4efe-a064-17ff1e72bcfe",
       "unitName": "_nameless._.display2",
       "screenId": 200,
       "displayName": "_nameless._.display2 (200)",
       "elements": [
         {
-          "id": "513a2a24-8b96-416a-9dfd-f90013171750",
+          "id": "c9d54b71-ae21-4d50-a86e-11bb3fdd82ad",
           "elementType": "group",
           "name": "_nameless._.display2",
           "parentName": "_nameless.wnd",
@@ -2067,7 +2032,7 @@
           "isVisible": true
         },
         {
-          "id": "77762e5f-7a11-480a-b2a1-f5a36b0a382d",
+          "id": "5cb30b04-1315-403d-8c58-b85b7d78bf72",
           "elementType": "textCommon",
           "name": "_nameless._.avg_cons",
           "parentName": "_nameless._.display2",
@@ -2101,7 +2066,7 @@
           "isVisible": true
         },
         {
-          "id": "0c1a885e-41b5-469c-be07-e4a7d883fcb4",
+          "id": "7ec78d47-ff13-4f57-82e2-b76320ae247f",
           "elementType": "text",
           "name": "_nameless._.avg_cons_i",
           "parentName": "_nameless._.display2",
@@ -2135,7 +2100,7 @@
           "isVisible": true
         },
         {
-          "id": "0beebf45-525b-499b-9987-59299997edaf",
+          "id": "0bbd6503-0283-4d8d-95da-b2bb384f6b33",
           "elementType": "textCommon",
           "name": "_nameless._.avg_spd",
           "parentName": "_nameless._.display2",
@@ -2169,7 +2134,7 @@
           "isVisible": true
         },
         {
-          "id": "91ef40e1-8bb4-4307-962c-4cef360fcc95",
+          "id": "d3aae143-2e4b-4c3a-bc81-0ffce9f5f7ff",
           "elementType": "text",
           "name": "_nameless._.avg_spd_i",
           "parentName": "_nameless._.display2",
@@ -2203,7 +2168,7 @@
           "isVisible": true
         },
         {
-          "id": "5d82cfe6-6a1d-47ac-91c0-6d959f5fb5b5",
+          "id": "6bd21a4a-e1bf-416d-aacf-46ff76c19c18",
           "elementType": "textCommon",
           "name": "_nameless._.date",
           "parentName": "_nameless._.display2",
@@ -2237,7 +2202,7 @@
           "isVisible": true
         },
         {
-          "id": "692cd71a-f14b-406c-8417-83f17e10098c",
+          "id": "d4bdf8db-bc41-4dfd-9a00-058eb8748667",
           "elementType": "text",
           "name": "_nameless._.date_i",
           "parentName": "_nameless._.display2",
@@ -2271,7 +2236,7 @@
           "isVisible": true
         },
         {
-          "id": "a7bf9ea4-32a0-43bf-8fe6-0fb3435f5e50",
+          "id": "a0efb220-966b-45ac-8cc8-9d7b56019b29",
           "elementType": "text",
           "name": "_nameless._.scr_page2",
           "parentName": "_nameless._.display2",
@@ -2305,7 +2270,7 @@
           "isVisible": true
         },
         {
-          "id": "ffdb772b-026a-4bf4-a478-da0db6dc717e",
+          "id": "847a0155-e53b-431e-ba11-d47ef49eab3c",
           "elementType": "textCommon",
           "name": "_nameless._.trip1_dst",
           "parentName": "_nameless._.display2",
@@ -2339,7 +2304,7 @@
           "isVisible": true
         },
         {
-          "id": "746a2474-6254-45f6-aaa1-5ef6ef942e7b",
+          "id": "4f691fab-24dd-4073-9300-e78f8c5245fc",
           "elementType": "text",
           "name": "_nameless._.trip1_dst_i",
           "parentName": "_nameless._.display2",
@@ -2375,13 +2340,13 @@
       ]
     },
     {
-      "id": "dbb117f9-1003-48c3-908a-7eb41577be3e",
+      "id": "92a2f01f-4cea-4b8b-861a-0da8c8204fb9",
       "unitName": "_nameless._.display3",
       "screenId": 300,
       "displayName": "_nameless._.display3 (300)",
       "elements": [
         {
-          "id": "e1cb372f-c494-4f86-9939-386cc9b7dfbf",
+          "id": "7ff90fc2-b02a-48f4-a10d-be80b7305557",
           "elementType": "group",
           "name": "_nameless._.display3",
           "parentName": "_nameless.wnd",
@@ -2426,7 +2391,7 @@
           "isVisible": true
         },
         {
-          "id": "cbcdab21-8817-4b1d-a4db-517437f4bd70",
+          "id": "b72b6313-b921-4f96-a909-d3f788d869e3",
           "elementType": "textBar",
           "name": "_nameless._.adb_bar1",
           "parentName": "_nameless._.display3",
@@ -2460,7 +2425,7 @@
           "isVisible": true
         },
         {
-          "id": "fb256393-8745-4866-a5eb-3b69d77a3e4a",
+          "id": "c01fd35f-037a-45e2-b183-73c6ba4fd1ff",
           "elementType": "text",
           "name": "_nameless._.adb_bar_bcg1",
           "parentName": "_nameless._.display3",
@@ -2494,7 +2459,7 @@
           "isVisible": true
         },
         {
-          "id": "8b57880d-dc5f-48a8-900d-3f4e188eef34",
+          "id": "fd18455f-e962-4312-b802-550acabe6a86",
           "elementType": "textCommon",
           "name": "_nameless._.adblue",
           "parentName": "_nameless._.display3",
@@ -2528,7 +2493,7 @@
           "isVisible": true
         },
         {
-          "id": "ddc60314-9d2d-4e4f-8e76-0581181c13cd",
+          "id": "d74111dc-6661-4700-bfdc-815e5991dfc1",
           "elementType": "text",
           "name": "_nameless._.adblue_i1",
           "parentName": "_nameless._.display3",
@@ -2562,7 +2527,7 @@
           "isVisible": true
         },
         {
-          "id": "13d50d86-a8ad-4255-8b8d-2998c922d501",
+          "id": "9cdd1d45-6c3c-4d6c-a387-69abb15a628f",
           "elementType": "textCommon",
           "name": "_nameless._.dst_left",
           "parentName": "_nameless._.display3",
@@ -2596,7 +2561,7 @@
           "isVisible": true
         },
         {
-          "id": "7420f3ff-0596-4ca7-bc09-15c57625e61e",
+          "id": "ce6a18d1-aa77-4c7a-8744-fcd6f50ebd80",
           "elementType": "textBar",
           "name": "_nameless._.fuel_bar1",
           "parentName": "_nameless._.display3",
@@ -2630,7 +2595,7 @@
           "isVisible": true
         },
         {
-          "id": "32241171-6de5-45ac-a733-f5a932a16ce9",
+          "id": "c140cb88-ea0b-48bd-9f90-ec8ea258e4d6",
           "elementType": "text",
           "name": "_nameless._.fuel_bar_bg1",
           "parentName": "_nameless._.display3",
@@ -2664,7 +2629,7 @@
           "isVisible": true
         },
         {
-          "id": "3948f509-b02a-48ec-9c0c-db6f240e126a",
+          "id": "e69788d8-a4c4-4193-8261-9bf931418ff5",
           "elementType": "text",
           "name": "_nameless._.fuel_i1",
           "parentName": "_nameless._.display3",
@@ -2698,7 +2663,7 @@
           "isVisible": true
         },
         {
-          "id": "bd532552-8c37-431c-8924-dcf310be66c4",
+          "id": "4e108020-a495-4405-b8a3-bd7ec32eb9cd",
           "elementType": "textCommon",
           "name": "_nameless._.fuel_rem",
           "parentName": "_nameless._.display3",
@@ -2732,7 +2697,7 @@
           "isVisible": true
         },
         {
-          "id": "37761897-fbb5-47c4-aa86-a44aebadd7c6",
+          "id": "2e61a28b-023d-4fb6-9fbc-ec8a558e6cf5",
           "elementType": "text",
           "name": "_nameless._.scr_page3",
           "parentName": "_nameless._.display3",
@@ -2768,13 +2733,13 @@
       ]
     },
     {
-      "id": "bc54a4ea-8400-40e0-9e24-64eb59303926",
+      "id": "e19c7836-4bf4-4927-8a6f-b94d95d29e0e",
       "unitName": "_nameless._.display4",
       "screenId": 400,
       "displayName": "_nameless._.display4 (400)",
       "elements": [
         {
-          "id": "bf6e4880-a53e-468c-b8f7-cc5f30857ec1",
+          "id": "84a04791-bd44-4de9-bf4d-81014bd1f9f0",
           "elementType": "group",
           "name": "_nameless._.display4",
           "parentName": "_nameless.wnd",
@@ -2814,7 +2779,7 @@
           "isVisible": true
         },
         {
-          "id": "42f1a0bc-dfff-456a-9078-6d057e08362c",
+          "id": "7c417619-1289-44a5-bdd1-93699908c41e",
           "elementType": "text",
           "name": "_nameless._.scr_page4",
           "parentName": "_nameless._.display4",
@@ -2848,7 +2813,7 @@
           "isVisible": true
         },
         {
-          "id": "47fc4fe1-851b-4ed5-b996-358b52674fe5",
+          "id": "2d221f1e-9cf0-4336-8b61-0c021f475961",
           "elementType": "textBar",
           "name": "_nameless._.wtemp_bar",
           "parentName": "_nameless._.display4",
@@ -2882,7 +2847,7 @@
           "isVisible": true
         },
         {
-          "id": "84a8f1c7-4eb7-44de-aca3-984575490844",
+          "id": "16f89cc6-a8d0-45eb-9ef4-76b7278fa876",
           "elementType": "text",
           "name": "_nameless._.wtemp_bcg",
           "parentName": "_nameless._.display4",
@@ -2916,7 +2881,7 @@
           "isVisible": true
         },
         {
-          "id": "19aad495-5fed-4523-b3f5-2ce21bef85c3",
+          "id": "38d9faf4-b514-4206-94fc-51423719c424",
           "elementType": "text",
           "name": "_nameless._.wtemp_i",
           "parentName": "_nameless._.display4",
@@ -2950,7 +2915,7 @@
           "isVisible": true
         },
         {
-          "id": "3124dbf8-e4fa-4020-bbf9-c333b10e22cc",
+          "id": "d2f4456d-ef1d-4f9e-aa54-92489776273e",
           "elementType": "textCommon",
           "name": "_nameless._.wtemp_stts",
           "parentName": "_nameless._.display4",
@@ -2986,13 +2951,13 @@
       ]
     },
     {
-      "id": "0e02b002-e731-4d85-836d-de7da3007375",
+      "id": "3491eb2d-a231-41ae-a866-6e1a77abb423",
       "unitName": "_nameless._.display5",
       "screenId": 500,
       "displayName": "_nameless._.display5 (500)",
       "elements": [
         {
-          "id": "dd7137d7-eb01-43b8-8e2a-fb9c452ca5e9",
+          "id": "cdfdecf3-7f82-4d6e-bcea-cc2b5373afc0",
           "elementType": "group",
           "name": "_nameless._.display5",
           "parentName": "_nameless.wnd",
@@ -3032,7 +2997,7 @@
           "isVisible": true
         },
         {
-          "id": "d091d57a-0c51-452a-9da5-adcbf68ecda8",
+          "id": "6abd0e07-5366-4f54-8803-f1960b60b751",
           "elementType": "textBar",
           "name": "_nameless._.oilp_bar",
           "parentName": "_nameless._.display5",
@@ -3066,7 +3031,7 @@
           "isVisible": true
         },
         {
-          "id": "36f8c006-c5cd-436e-9314-34eb15ec5810",
+          "id": "188a2cc2-e37d-410b-b9df-0d710148ac9a",
           "elementType": "text",
           "name": "_nameless._.oilp_bar_bcg",
           "parentName": "_nameless._.display5",
@@ -3100,7 +3065,7 @@
           "isVisible": true
         },
         {
-          "id": "a8cb5336-d65e-4a82-8296-409beaf50f5c",
+          "id": "252b7d47-60e2-496d-8413-b0af68807e92",
           "elementType": "text",
           "name": "_nameless._.oilp_i",
           "parentName": "_nameless._.display5",
@@ -3134,7 +3099,7 @@
           "isVisible": true
         },
         {
-          "id": "57a2b0b9-7827-4e7a-9e31-c134d4dc8825",
+          "id": "919dea21-587c-4650-95d2-8ee33d145abe",
           "elementType": "text",
           "name": "_nameless._.oilp_txt",
           "parentName": "_nameless._.display5",
@@ -3168,7 +3133,7 @@
           "isVisible": true
         },
         {
-          "id": "8c2838a7-cf93-418d-b723-a25fd36aa643",
+          "id": "45e847c8-5fda-4ec9-9c20-edc7f1d5fbfb",
           "elementType": "text",
           "name": "_nameless._.scr_page5",
           "parentName": "_nameless._.display5",
@@ -3204,13 +3169,13 @@
       ]
     },
     {
-      "id": "427e236a-5767-4df7-a476-c246efa33c1d",
+      "id": "3cfc383d-de7a-4750-8c6f-c9232118c825",
       "unitName": "_nameless._.display6",
       "screenId": 600,
       "displayName": "_nameless._.display6 (600)",
       "elements": [
         {
-          "id": "5595d846-d880-4741-8a1f-7b00efe76ccb",
+          "id": "e5d85a5f-fc14-45bf-aec8-0ed8dfdc1101",
           "elementType": "group",
           "name": "_nameless._.display6",
           "parentName": "_nameless.wnd",
@@ -3249,7 +3214,7 @@
           "isVisible": true
         },
         {
-          "id": "da4da8cd-d0ba-4a14-87f0-ebf346e5b066",
+          "id": "8525505a-edac-4188-8700-c1fb99e0a7f0",
           "elementType": "text",
           "name": "_nameless._.nonotif_txt",
           "parentName": "_nameless._.display6",
@@ -3283,7 +3248,7 @@
           "isVisible": true
         },
         {
-          "id": "864a64fe-49f7-4334-85ae-89002006ff27",
+          "id": "512314a4-30b5-45f5-8e20-7103e529e160",
           "elementType": "text",
           "name": "_nameless._.scr_page6",
           "parentName": "_nameless._.display6",
@@ -3317,7 +3282,7 @@
           "isVisible": true
         },
         {
-          "id": "619e51d6-a8a4-4bc1-907c-004a6a68836f",
+          "id": "3ada963b-7231-457f-aa67-d24a7ae9ffbf",
           "elementType": "text",
           "name": "_nameless._.dmg_notif",
           "parentName": "_nameless._.display6",
@@ -3351,7 +3316,7 @@
           "isVisible": true
         },
         {
-          "id": "1460b227-0820-444b-9292-644eee1a5ece",
+          "id": "ac0d32fb-44d6-4a85-bedd-beecb137fe48",
           "elementType": "text",
           "name": "_nameless._.airp_notif",
           "parentName": "_nameless._.display6",
@@ -3387,13 +3352,13 @@
       ]
     },
     {
-      "id": "a698c541-94c3-4a62-98bf-6f5f42a0d656",
+      "id": "80f597ae-cab2-49f0-8f7e-749c9aafc881",
       "unitName": "_nameless._.display7",
       "screenId": 700,
       "displayName": "_nameless._.display7 (700)",
       "elements": [
         {
-          "id": "247bda9e-fc59-4dff-886b-0ba8b3cc7e27",
+          "id": "2d7dd476-943e-4973-93d4-85aea1ef994d",
           "elementType": "group",
           "name": "_nameless._.cc1",
           "parentName": "_nameless._.display7",
@@ -3430,7 +3395,7 @@
           "isVisible": true
         },
         {
-          "id": "56f5c906-926c-4767-af38-062233f05d57",
+          "id": "6b0bc891-be83-4711-acb4-4f3e07e2ce6a",
           "elementType": "group",
           "name": "_nameless._.display7",
           "parentName": "_nameless.wnd",
@@ -3476,7 +3441,7 @@
           "isVisible": true
         },
         {
-          "id": "7623c326-a9e9-4d2c-863e-6a0ac7ca92c9",
+          "id": "dcfd8839-2223-4501-901e-36f3f2c730f4",
           "elementType": "text",
           "name": "_nameless._.bcg7",
           "parentName": "_nameless._.display7",
@@ -3510,7 +3475,7 @@
           "isVisible": true
         },
         {
-          "id": "475398f4-9ed0-4e0b-b8fe-ed1e166fd74d",
+          "id": "419a7ae5-a0f6-4ae3-a226-fa3d3f16cd4b",
           "elementType": "text",
           "name": "_nameless._.cc_ico1",
           "parentName": "_nameless._.cc1",
@@ -3544,7 +3509,7 @@
           "isVisible": true
         },
         {
-          "id": "ae3ec19d-36f2-40ca-bf71-b2577f0dc3e2",
+          "id": "a12988bb-0d30-416f-871e-824a433b58ee",
           "elementType": "text",
           "name": "_nameless._.cc_lanes1",
           "parentName": "_nameless._.display7",
@@ -3578,7 +3543,7 @@
           "isVisible": true
         },
         {
-          "id": "895ea03a-dc97-4182-8504-d1a851f2ca59",
+          "id": "417a4f05-60f9-4424-9d1c-3735a8e9fde8",
           "elementType": "textCommon",
           "name": "_nameless._.cc_speed1",
           "parentName": "_nameless._.cc1",
@@ -3612,7 +3577,7 @@
           "isVisible": true
         },
         {
-          "id": "b0efe273-db7c-4db8-a59c-dd7a1d91a7c0",
+          "id": "e52f7ca6-8d0e-410b-9cb2-576f7e903f96",
           "elementType": "textCommon",
           "name": "_nameless._.gear1",
           "parentName": "_nameless._.display7",
@@ -3646,7 +3611,7 @@
           "isVisible": true
         },
         {
-          "id": "6003bc53-6867-47db-9b1a-3029519671cb",
+          "id": "3cc0cfba-2e35-4640-afb3-fd45965479f7",
           "elementType": "textCommon",
           "name": "_nameless._.gear_modd1",
           "parentName": "_nameless._.display7",
@@ -3680,7 +3645,7 @@
           "isVisible": true
         },
         {
-          "id": "c95752a7-ab48-498b-8895-472901a43343",
+          "id": "363470b3-6abb-4ac3-8660-f651e904ef80",
           "elementType": "textCommon",
           "name": "_nameless._.gear_mode1",
           "parentName": "_nameless._.display7",
@@ -3714,7 +3679,7 @@
           "isVisible": true
         },
         {
-          "id": "212c7a16-a7b9-4a76-98ad-1864fe875dc3",
+          "id": "b20f8df4-4c51-41fb-89dc-2a50bc845be5",
           "elementType": "text",
           "name": "_nameless._.gear_mode_i1",
           "parentName": "_nameless._.display7",
@@ -3748,7 +3713,7 @@
           "isVisible": true
         },
         {
-          "id": "ae0bdf4b-e138-490d-aef4-5de7e9af473f",
+          "id": "0f103b0f-1128-4af2-a36a-898916e79445",
           "elementType": "textCommon",
           "name": "_nameless._.no_spd_lmt1",
           "parentName": "_nameless._.display7",
@@ -3782,7 +3747,7 @@
           "isVisible": true
         },
         {
-          "id": "b8a0ccd4-8bf3-44bd-ab4f-6dd4edef5c71",
+          "id": "56a197fd-b20d-42ee-ac7e-7fcf1dfb8534",
           "elementType": "text",
           "name": "_nameless._.scr_page7",
           "parentName": "_nameless._.display7",
@@ -3816,7 +3781,7 @@
           "isVisible": true
         },
         {
-          "id": "ee7c7995-5594-486d-9c6c-38370b7b279a",
+          "id": "affb5460-c3ee-4bdb-b99e-960893fd7642",
           "elementType": "textCommon",
           "name": "_nameless._.speed1",
           "parentName": "_nameless._.display7",
@@ -3850,7 +3815,7 @@
           "isVisible": true
         },
         {
-          "id": "0bef6d15-ed80-4323-abc7-ea6ab302fc5c",
+          "id": "5d1ed99c-792c-4a59-968e-c3e35e7c04d0",
           "elementType": "textCommon",
           "name": "_nameless._.spd_lmt1",
           "parentName": "_nameless._.display7",
@@ -4078,6 +4043,78 @@
     {
       "name": "txt.daf2013.text_lcd",
       "text": "<align hstyle=right><font face=/font/lcd_number.font xscale=1.2 yscale=1.2>%0</font></align>"
+    },
+    {
+      "name": "txt.man_tgx_2020.bigc",
+      "text": "<color value=FFC3C5C5><align hstyle=center><font face=/font/db_man_2020.font xscale=2 yscale=2>%0</font></align>"
+    },
+    {
+      "name": "txt.man_tgx_2020.cc_speed",
+      "text": "<color value=FFB4B4B4><align hstyle=center><font face=/font/db_man_2020.font xscale=2.1667 yscale=2.1667>%0</font></align>"
+    },
+    {
+      "name": "txt.man_tgx_2020.cc_speed_u",
+      "text": "<color value=FFB4B4B4><align hstyle=center><font face=/font/db_man_2020.font xscale=1.5 yscale=1.5>%0</font></align>"
+    },
+    {
+      "name": "txt.man_tgx_2020.gear",
+      "text": "<color value=FFC3C5C5><align hstyle=left><font face=/font/db_man_2020.font xscale=3.6 yscale=3.6>%0</font></align>"
+    },
+    {
+      "name": "txt.man_tgx_2020.gear_mode",
+      "text": "<color value=FFC3C5C5><align hstyle=right><font face=/font/db_man_2020.font xscale=3.6 yscale=3.6>%0</font></align>"
+    },
+    {
+      "name": "txt.man_tgx_2020.inst_fuel",
+      "text": "<color value=FFC3C5C5><align hstyle=right vstyle=bottom><font face=/font/db_man_2020.font xscale=1.75 yscale=1.75>%0 </font><offset vshift=14><font face=/font/db_man_2020.font xscale=0.75 yscale=0.75>%1</font></align>"
+    },
+    {
+      "name": "txt.man_tgx_2020.normalc",
+      "text": "<color value=FFC3C5C5><align hstyle=center><font face=/font/db_man_2020.font xscale=1.75 yscale=1.75>%0</font></align>"
+    },
+    {
+      "name": "txt.man_tgx_2020.normalr",
+      "text": "<color value=FFC3C5C5><align hstyle=right><font face=/font/db_man_2020.font xscale=1.75 yscale=1.75>%0</font></align>"
+    },
+    {
+      "name": "txt.man_tgx_2020.odo",
+      "text": "<color value=FFC3C5C5><align hstyle=right><font face=/font/db_man_2020.font xscale=1.75 yscale=1.75>%0 %1</font></align>"
+    },
+    {
+      "name": "txt.man_tgx_2020.smalldr",
+      "text": "<color value=FFC3C5C5><font face=/font/db_man_2020.font xscale=1.5 yscale=1.5><align hstyle=right>%0<offset hshift=100> </align><ret><align hstyle=left><offset hshift=290>%1</align></font>"
+    },
+    {
+      "name": "txt.man_tgx_2020.smalll",
+      "text": "<color value=FFC3C5C5><align hstyle=left><font face=/font/db_man_2020.font xscale=1.5 yscale=1.5>%0</font></align>"
+    },
+    {
+      "name": "txt.man_tgx_2020.speed",
+      "text": "<color value=FFC3C5C5><align hstyle=right><font face=/font/db_man_2020.font xscale=5 yscale=5>%0</font><br><offset vshift=7 hshift=-10><font face=/font/db_man_2020.font xscale=0.9 yscale=0.9>%1</font></align>"
+    },
+    {
+      "name": "txt.man_tgx_2020.speed_lmt",
+      "text": "<img src=/material/ui/dashboard/man_tgx_2020/display.mat xscale=stretch yscale=stretch left=0.0625 right=0.125 top=0.875 bottom=1 color=FFD4D4D4><ret><color value=FF000000><offset vshift=5><align vstyle=center hstyle=center><font face=/font/db_man_2020.font xscale=2.5 yscale=2.5>%0</font></align>"
+    },
+    {
+      "name": "txt.man_tgx_2020.speed_lmts",
+      "text": "<img src=/material/ui/dashboard/man_tgx_2020/display.mat xscale=stretch yscale=stretch left=0.0625 right=0.125 top=0.875 bottom=1 color=FFD4D4D4><ret><color value=FF000000><offset vshift=5><align vstyle=center hstyle=center><font face=/font/db_man_2020.font xscale=1.5 yscale=1.5>%0</font></align>"
+    },
+    {
+      "name": "txt.man_tgx_2020.strip_time",
+      "text": "<color value=FFC3C5C5><font face=/font/db_man_2020.font xscale=1.5 yscale=1.5><align hstyle=right>%0<offset hshift=100> </align><ret><align hstyle=left><offset hshift=290>h</align></font>"
+    },
+    {
+      "name": "txt.man_tgx_2020.temp",
+      "text": "<color value=FFC3C5C5><align hstyle=right><font face=/font/db_man_2020.font xscale=1.75 yscale=1.75>%0,0</font><font face=/font/db_man_2020.font xscale=0.9 yscale=0.9> Â°%1</font></align>"
+    },
+    {
+      "name": "txt.man_tgx_2020.tempbig",
+      "text": "<color value=FFC3C5C5><align hstyle=right><font face=/font/db_man_2020.font xscale=1.75 yscale=1.75>%0 Â°%1</font></align>"
+    },
+    {
+      "name": "txt.man_tgx_2020.trip_time",
+      "text": "<color value=FFC3C5C5><align hstyle=right><font face=/font/db_man_2020.font xscale=1.75 yscale=1.75>%0 h</font></align>"
     },
     {
       "name": "txt.man_tgx_el3.gear",
