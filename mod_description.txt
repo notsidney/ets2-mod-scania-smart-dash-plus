@@ -1,0 +1,31 @@
+[green]Scania Smart Dash Improved Dashboard (Larger Text)
+
+[white]This mod improved Scania Smart Dash dashboard:
+
+- added odometer;
+- added low beam icon;
+- added left/right blind spot indicators;
+- added truck/trailer axles indicators;
+- added remaining fuel in tank gauge;
+- added cruise control memory icon;
+- added cruise control tolerance gauge;
+- added trip time gauge;
+- added oil temperature bar;
+- added turbo pressure bar;
+- added a darkening effect for maximum values ​​on the tachometer and speedometer;
+- added page titles to the dashboard;
+- added logo;
+- added rear axle load page;
+- added suspension load bar;
+- added new interior versions for R/S-model High roof cab: options for 2-, 3- or 4-axle chassis, as well as Super and 770 versions (choose the interior version carefully - this affects the icons and gauges);
+- added speed limit gauge on infotainment module;
+- added 3 new decorative pages on infotainment module;
+- added ETA on infotainment module;
+- added time until rest on infotainment module;
+- rebuilded structure of the infotainment module;
+- changed cruise control block;
+- changed transmission block;
+- changed system warning sound (blind spot for example);
+- fixes and improvements.
+
+[orange]Created by notsidney, KnightRider, AMYLECH.
