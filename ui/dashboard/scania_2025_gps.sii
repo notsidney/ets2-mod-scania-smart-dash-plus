@@ -101,7 +101,7 @@ ui::text : _nameless._.bcg {
 
 ui::group : _nameless._.display1 {
  fitting: false
- my_children: 17
+ my_children: 15
  my_children[0]: _nameless._.sel_page
  my_children[1]: _nameless._.gps
  my_children[2]: _nameless._.bcg1
@@ -115,10 +115,8 @@ ui::group : _nameless._.display1 {
  my_children[10]: _nameless._.g_no_spd_lmt
  my_children[11]: _nameless._.g_spd_lmt
  my_children[12]: _nameless._.g_clk
- my_children[13]: _nameless._.eta_lab
- my_children[14]: _nameless._.eta
- my_children[15]: _nameless._.rst_lab
- my_children[16]: _nameless._.rst
+ my_children[13]: _nameless._.eta
+ my_children[14]: _nameless._.rst
  coords_l: 0
  coords_r: 1440
  coords_t: 810
@@ -375,35 +373,16 @@ ui::text_common : _nameless._.g_clk {
  my_parent: _nameless._.display1
 }
 
-ui::text_common : _nameless._.eta_lab {
- look_template: txt.scania_sd_25.vall_white
- value: ETA
- text: ""
- coords_l: 137
- coords_r: 209
- coords_t: 800
- coords_b: 760
- area_l: 137
- area_r: 209
- area_t: 800
- area_b: 760
- id: 0
- layer: 2
- tab: -1
- pointer: -1
- my_parent: _nameless._.display1
-}
-
 ui::text_common : _nameless._.eta {
- look_template: txt.scania_sd_25.vall_white
+ look_template: txt.scania_sd_25.cid_eta
  value: "00:00"
  text: ""
- coords_l: 220
- coords_r: 340
+ coords_l: 330
+ coords_r: 490
  coords_t: 800
  coords_b: 760
- area_l: 230
- area_r: 350
+ area_l: 330
+ area_r: 490
  area_t: 800
  area_b: 760
  id: 1530
@@ -413,35 +392,16 @@ ui::text_common : _nameless._.eta {
  my_parent: _nameless._.display1
 }
 
-ui::text_common : _nameless._.rst_lab {
- look_template: txt.scania_sd_25.vall_white
- value: RST
- text: ""
- coords_l: 360
- coords_r: 432
- coords_t: 800
- coords_b: 760
- area_l: 370
- area_r: 442
- area_t: 800
- area_b: 760
- id: 0
- layer: 2
- tab: -1
- pointer: -1
- my_parent: _nameless._.display1
-}
-
 ui::text_common : _nameless._.rst {
- look_template: txt.scania_sd_25.vall_white
+ look_template: txt.scania_sd_25.cid_rest
  value: "00:00"
  text: ""
- coords_l: 442
- coords_r: 562
+ coords_l: 144
+ coords_r: 320
  coords_t: 800
  coords_b: 760
- area_l: 462
- area_r: 582
+ area_l: 144
+ area_r: 320
  area_t: 800
  area_b: 760
  id: 1540

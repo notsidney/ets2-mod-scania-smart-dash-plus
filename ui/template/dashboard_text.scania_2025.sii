@@ -82,6 +82,16 @@ ui::text_template : txt.scania_sd_25.valprc_white {
 	text: "<color value=FFF0DBCC><align hstyle=left><font face=/font/db_scania_sans_cy_cond.font xscale=1.92 yscale=1.92>%0</font><offset vshift=5><font face=/font/db_scania_sans_cy_cond.font xscale=1.5 yscale=1.5> %</font></align>"
 }
 
+ui::text_template : txt.scania_sd_25.cid_eta {
+	name: "zDB Scania Smart Dash 2025 CID ETA"
+	text: "<color value=FFF0DBCC><align vstyle=center hstyle=left><img src=/material/ui/dashboard/destination.mat width=25 height=32><offset hshift=10><font face=/font/db_scania_sans_cy_cond.font xscale=2.15 yscale=2.15>%0</font></align>"
+}
+
+ui::text_template : txt.scania_sd_25.cid_rest {
+	name: "zDB Scania Smart Dash 2025 CID Rest"
+	text: "<color value=FFF0DBCC><align vstyle=center hstyle=left><img src=/material/ui/dashboard/fatigue.mat width=45 height=32><offset hshift=10><font face=/font/db_scania_sans_cy_cond.font xscale=2.15 yscale=2.15>%0</font></align>"
+}
+
 ui::text_template : txt.scania_sd_25.cid_btn1 {
 	name: "zDB Scania Smart Dash 2025 CID Btn Rounded"
 	text: "<color value=%0><img src=/material/ui/dashboard/scania_2025/display.mat yscale=stretch left=0.5 right=0.53125 top=0.8125 bottom=0.875 width=40><ret><margin left=40 right=-40><img src=/material/ui/dashboard/scania_2025/display.mat yscale=stretch xscale=stretch left=0.53125 right=0.53126 top=0.8125 bottom=0.875></margin><ret><align hstyle=right><img src=/material/ui/dashboard/scania_2025/display.mat yscale=stretch left=0.53125 right=0.5625 top=0.8125 bottom=0.875 width=40></align><color value=%1><ret><align hstyle=right vstyle=center right=-20><img src=/material/ui/dashboard/scania_2025/display.mat width=30 height=30 left=0.4375 right=0.5 top=0.6875 bottom=0.75></align><ret><align hstyle=left vstyle=center left=22><img src=/material/ui/dashboard/scania_2025/display.mat width=30 height=30 left=0.5 right=0.5625 top=0.9375 bottom=1></align><ret><align hstyle=center vstyle=center><img src=/material/ui/dashboard/scania_2025/display.mat %2></align>"
