@@ -24,7 +24,7 @@ ui::text_template : txt.scania_sd_25.speed_big {
 
 ui::text_template : txt.scania_sd_25.valr_green {
 	name: "zDB Scania Smart Dash 2025 Single Val Right Green"
-	text: "<color value=FF9FB200><align hstyle=right><font face=/font/db_scania_sans_cy_cond.font xscale=2.15 yscale=2.15>%0</font></align>"
+	text: "<color value=FFF0DBCC><align hstyle=right><font face=/font/db_scania_sans_cy_cond.font xscale=2.4 yscale=2.4>%0</font></align>"
 }
 
 ui::text_template : txt.scania_sd_25.vall_gray {

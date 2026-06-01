@@ -306,7 +306,7 @@ ui::text : _nameless._.lowp_i {
 }
 
 ui::text : _nameless._.pbrake_i {
- text: "<color value=FF370AEB><img src=/material/ui/dashboard/scania_2025/display.mat xscale=stretch yscale=stretch left=0 right=0.0625 top=0.875 bottom=0.9375>\r\n<ret><offset vshift=3 hshift=3><align vstyle=center hstyle=center><font face=/font/db_scania_sans_cy_cond.font xscale=1.09 yscale=1.09>P</font></align>"
+ text: "<color value=FF370AEB><img src=/material/ui/dashboard/scania_2025/display.mat xscale=stretch yscale=stretch left=0 right=0.0625 top=0.875 bottom=0.9375>\n<ret><offset vshift=3 hshift=3><align vstyle=center hstyle=center><font face=/font/db_scania_sans_cy_cond.font xscale=1.65 yscale=1.65>P</font></align>"
  coords_l: 138
  coords_r: 204
  coords_t: 471
@@ -377,17 +377,17 @@ ui::text : _nameless._.cc_ico {
 }
 
 ui::text_common : _nameless._.cc_speed {
- look_template: txt.scania_sd_25.valr_white
+ look_template: txt.scania_sd_25.valr_green
  value: 80
  text: ""
- coords_l: 411
- coords_r: 511
- coords_t: 426
- coords_b: 384
- area_l: 411
- area_r: 511
- area_t: 426
- area_b: 384
+ coords_l: 412
+ coords_r: 512
+ coords_t: 428
+ coords_b: 386
+ area_l: 412
+ area_r: 512
+ area_t: 428
+ area_b: 386
  id: 1100
  layer: 3
  tab: -1
@@ -1284,14 +1284,14 @@ ui::text_common : _nameless._.avg_spd {
 
 ui::text : _nameless._.date_i {
  text: "<color value=FFF0DBCC><img src=/material/ui/dashboard/scania_2025/display.mat xscale=stretch yscale=stretch left=0.1875 right=0.25 top=0.6875 bottom=0.75>"
- coords_l: 578
- coords_r: 629
- coords_t: 228
- coords_b: 177
- area_l: 578
- area_r: 629
- area_t: 228
- area_b: 177
+ coords_l: 582
+ coords_r: 626
+ coords_t: 224
+ coords_b: 180
+ area_l: 582
+ area_r: 626
+ area_t: 224
+ area_b: 180
  id: 0
  layer: 2
  tab: -1
@@ -1320,14 +1320,14 @@ ui::text_common : _nameless._.date {
 
 ui::text : _nameless._.trip1_dst_i {
  text: "<color value=FFF0DBCC><img src=/material/ui/dashboard/scania_2025/display.mat xscale=stretch yscale=stretch left=0.1875 right=0.25 top=0.75 bottom=0.8125>"
- coords_l: 578
- coords_r: 629
- coords_t: 160
- coords_b: 109
- area_l: 578
- area_r: 629
- area_t: 160
- area_b: 109
+ coords_l: 582
+ coords_r: 626
+ coords_t: 156
+ coords_b: 112
+ area_l: 582
+ area_r: 626
+ area_t: 156
+ area_b: 112
  id: 0
  layer: 2
  tab: -1
@@ -1853,15 +1853,15 @@ ui::text : _nameless._.nonotif_txt {
 }
 
 ui::text : _nameless._.dmg_notif {
- text: "<color value=FFFFFFFF><img src=/material/ui/dashboard/scania_2025/display.mat xscale=stretch height=11 left=0.0029296875 right=0.3388671875 top=0.6533203125 bottom=0.6611328125>\r\n<img src=/material/ui/dashboard/scania_2025/display.mat xscale=stretch height=120 left=0.0029296875 right=0.3388671875 top=0.6612 bottom=0.6612>\r\n<img src=/material/ui/dashboard/scania_2025/display.mat xscale=stretch height=11 left=0.0029296875 right=0.3388671875 top=0.66015625 bottom=0.66796875>\r\n<ret>\r\n<color value=FF1BC2F1>\r\n<offset hshift=10 vshift=10><img src=/material/ui/dashboard/scania_2025/display.mat width=81 height=81 left=0.25 right=0.3125 top=0.8125 bottom=0.875>\r\n<color value=FFF0DBCC>\r\n<ret><offset hshift=110 vshift=20><font face=/font/db_scania_sans_cy_cond.font xscale xscale=2.22 yscale=2.1>Engine fault</font>\r\n<color value=FF988A7F>\r\n<ret><offset hshift=110 vshift=70><font face=/font/db_scania_sans_cy_cond.font xscale xscale=1.74 yscale=1.65>Visit workshop</font>"
+ text: "<color value=FFFFFFFF><img src=/material/ui/dashboard/scania_2025/display.mat xscale=stretch height=11 left=0.0029296875 right=0.3388671875 top=0.6533203125 bottom=0.6611328125>\n<img src=/material/ui/dashboard/scania_2025/display.mat xscale=stretch height=110 left=0.0029296875 right=0.3388671875 top=0.6612 bottom=0.6612>\n<img src=/material/ui/dashboard/scania_2025/display.mat xscale=stretch height=11 left=0.0029296875 right=0.3388671875 top=0.66015625 bottom=0.66796875>\n<ret>\n<color value=FF1BC2F1>\n<offset hshift=10 vshift=10><img src=/material/ui/dashboard/scania_2025/display.mat width=81 height=81 left=0.25 right=0.3125 top=0.8125 bottom=0.875>\n<color value=FFF0DBCC>\n<ret><offset hshift=110 vshift=20><font face=/font/db_scania_sans_cy_cond.font xscale xscale=2.22 yscale=2.1>Engine fault</font>\n<color value=FF988A7F>\n<ret><offset hshift=110 vshift=70><font face=/font/db_scania_sans_cy_cond.font xscale xscale=1.74 yscale=1.65>Visit workshop</font>"
  coords_l: 478
  coords_r: 962
  coords_t: 297
- coords_b: 162
+ coords_b: 172
  area_l: 478
  area_r: 962
  area_t: 297
- area_b: 162
+ area_b: 172
  id: 1190
  layer: 3
  tab: -1
@@ -1870,15 +1870,15 @@ ui::text : _nameless._.dmg_notif {
 }
 
 ui::text : _nameless._.airp_notif {
- text: "<color value=FFFFFFFF><img src=/material/ui/dashboard/scania_2025/display.mat xscale=stretch height=11 left=0.0029296875 right=0.3388671875 top=0.669921875 bottom=0.677734375>\r\n<img src=/material/ui/dashboard/scania_2025/display.mat xscale=stretch height=154 left=0.0029296875 right=0.3388671875 top=0.6612 bottom=0.6612>\r\n<img src=/material/ui/dashboard/scania_2025/display.mat xscale=stretch height=11 left=0.0029296875 right=0.3388671875 top=0.66015625 bottom=0.66796875>\r\n<ret>\r\n<color value=FF370AEB>\r\n<offset hshift=10 vshift=10><img src=/material/ui/dashboard/scania_2025/display.mat width=81 height=81 left=0.25 right=0.3125 top=0.75 bottom=0.8125>\r\n<color value=FFF0DBCC>\r\n<ret><font face=/font/db_scania_sans_cy_cond.font xscale xscale=2.22 yscale=2.1><offset hshift=110 vshift=20>Limited braking<ret><offset hshift=110 vshift=60>performance</font>\r\n<color value=FF988A7F>\r\n<ret><font face=/font/db_scania_sans_cy_cond.font xscale xscale=1.74 yscale=1.65><offset hshift=110 vshift=104>Lower vehicle speed</font>"
+ text: "<color value=FFFFFFFF><img src=/material/ui/dashboard/scania_2025/display.mat xscale=stretch height=11 left=0.0029296875 right=0.3388671875 top=0.669921875 bottom=0.677734375>\n<img src=/material/ui/dashboard/scania_2025/display.mat xscale=stretch height=144 left=0.0029296875 right=0.3388671875 top=0.6612 bottom=0.6612>\n<img src=/material/ui/dashboard/scania_2025/display.mat xscale=stretch height=11 left=0.0029296875 right=0.3388671875 top=0.66015625 bottom=0.66796875>\n<ret>\n<color value=FF370AEB>\n<offset hshift=10 vshift=10><img src=/material/ui/dashboard/scania_2025/display.mat width=81 height=81 left=0.25 right=0.3125 top=0.75 bottom=0.8125>\n<color value=FFF0DBCC>\n<ret><font face=/font/db_scania_sans_cy_cond.font xscale xscale=2.22 yscale=2.1><offset hshift=110 vshift=20>Limited braking<ret><offset hshift=110 vshift=60>performance</font>\n<color value=FF988A7F>\n<ret><font face=/font/db_scania_sans_cy_cond.font xscale xscale=1.74 yscale=1.65><offset hshift=110 vshift=104>Lower vehicle speed</font>"
  coords_l: 478
  coords_r: 962
- coords_t: 313
- coords_b: 141
+ coords_t: 314
+ coords_b: 152
  area_l: 478
  area_r: 962
- area_t: 313
- area_b: 141
+ area_t: 314
+ area_b: 152
  id: 1260
  layer: 4
  tab: -1
@@ -1989,14 +1989,14 @@ ui::text_common : _nameless._.spd_lmt1 {
 
 ui::text : _nameless._.gear_mode_i1 {
  text: "<color value=FFAD9E93><img src=/material/ui/dashboard/scania_2025/display.mat xscale=stretch yscale=stretch left=0.125 right=0.1875 top=0.875 bottom=0.9375>"
- coords_l: 1034
- coords_r: 1082
- coords_t: 354
- coords_b: 306
- area_l: 1034
- area_r: 1082
- area_t: 354
- area_b: 306
+ coords_l: 1064
+ coords_r: 1112
+ coords_t: 352
+ coords_b: 304
+ area_l: 1064
+ area_r: 1112
+ area_t: 352
+ area_b: 304
  id: 0
  layer: 5
  tab: -1
@@ -2008,14 +2008,14 @@ ui::text_common : _nameless._.gear_modd1 {
  look_template: txt.scania_sd_25.vall_white
  value: D
  text: ""
- coords_l: 946
- coords_r: 994
- coords_t: 351
- coords_b: 295
- area_l: 946
- area_r: 994
- area_t: 351
- area_b: 295
+ coords_l: 976
+ coords_r: 1024
+ coords_t: 349
+ coords_b: 293
+ area_l: 976
+ area_r: 1024
+ area_t: 349
+ area_b: 293
  id: 1380
  layer: 5
  tab: -1
@@ -2027,14 +2027,14 @@ ui::text_common : _nameless._.gear_mode1 {
  look_template: txt.scania_sd_25.valr_gray
  value: A
  text: ""
- coords_l: 946
- coords_r: 1015
- coords_t: 351
- coords_b: 295
- area_l: 946
- area_r: 1015
- area_t: 351
- area_b: 295
+ coords_l: 976
+ coords_r: 1045
+ coords_t: 349
+ coords_b: 293
+ area_l: 976
+ area_r: 1045
+ area_t: 349
+ area_b: 293
  id: 1310
  layer: 5
  tab: -1
@@ -2046,14 +2046,14 @@ ui::text_common : _nameless._.gear1 {
  look_template: txt.scania_sd_25.vall_gray
  value: 12
  text: ""
- coords_l: 946
- coords_r: 1021
- coords_t: 296
- coords_b: 240
- area_l: 946
- area_r: 1021
- area_t: 296
- area_b: 240
+ coords_l: 976
+ coords_r: 1051
+ coords_t: 294
+ coords_b: 238
+ area_l: 976
+ area_r: 1051
+ area_t: 294
+ area_b: 238
  id: 1300
  layer: 5
  tab: -1
@@ -2118,17 +2118,17 @@ ui::text : _nameless._.cc_ico1 {
 }
 
 ui::text_common : _nameless._.cc_speed1 {
- look_template: txt.scania_sd_25.valr_white
+ look_template: txt.scania_sd_25.valr_green
  value: 80
  text: ""
  coords_l: 316
  coords_r: 416
- coords_t: 296
- coords_b: 254
+ coords_t: 298
+ coords_b: 256
  area_l: 316
  area_r: 416
- area_t: 296
- area_b: 254
+ area_t: 298
+ area_b: 256
  id: 1100
  layer: 5
  tab: -1
