@@ -72,6 +72,11 @@ ui::text_template : txt.scania_sd_25.valr_white {
 	text: "<color value=FFF0DBCC><align hstyle=right><font face=/font/db_scania_sans_cy_cond.font xscale=2.15 yscale=2.15>%0</font></align>"
 }
 
+ui::text_template : txt.scania_sd_25.valr_white2 {
+	name: "zDB Scania Smart Dash 2025 Single Val Right Whitey Med"
+	text: "<color value=FFF0DBCC><align hstyle=right><font face=/font/db_scania_sans_cy_cond.font xscale=2.4 yscale=2.4>%0</font></align>"
+}
+
 ui::text_template : txt.scania_sd_25.temp {
 	name: "zDB Scania Smart Dash 2025 Ambient Temp"
 	text: "<color value=FFF0DBCC><align hstyle=right><font face=/font/db_scania_sans_cy_cond.font xscale=2.15 yscale=2.15>%0 °%1</font></align>"
@@ -109,12 +114,12 @@ ui::text_template : txt.scania_sd_25.valprc_white {
 
 ui::text_template : txt.scania_sd_25.cid_eta {
 	name: "zDB Scania Smart Dash 2025 CID ETA"
-	text: "<color value=FFF0DBCC><align vstyle=center hstyle=left><img src=/material/ui/dashboard/destination.mat width=25 height=32><offset hshift=10><font face=/font/db_scania_sans_cy_cond.font xscale=2.15 yscale=2.15>%0</font></align>"
+	text: "<color value=FFF0DBCC><align vstyle=center hstyle=left><img src=/material/ui/dashboard/destination.mat width=28 height=36><offset hshift=15><font face=/font/db_scania_sans_cy_cond.font xscale=2.4 yscale=2.4>%0</font></align>"
 }
 
 ui::text_template : txt.scania_sd_25.cid_rest {
 	name: "zDB Scania Smart Dash 2025 CID Rest"
-	text: "<color value=FFF0DBCC><align vstyle=center hstyle=left><img src=/material/ui/dashboard/fatigue.mat width=45 height=32><offset hshift=10><font face=/font/db_scania_sans_cy_cond.font xscale=2.15 yscale=2.15>%0</font></align>"
+	text: "<color value=FFF0DBCC><align vstyle=center hstyle=left><img src=/material/ui/dashboard/fatigue.mat width=50 height=36><offset hshift=15><font face=/font/db_scania_sans_cy_cond.font xscale=2.4 yscale=2.4>%0</font></align>"
 }
 
 ui::text_template : txt.scania_sd_25.cid_btn1 {

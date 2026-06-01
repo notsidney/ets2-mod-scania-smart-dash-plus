@@ -315,8 +315,8 @@
           "childNames": [],
           "coordsL": 137,
           "coordsR": 197,
-          "coordsT": 748,
-          "coordsB": 688,
+          "coordsT": 738,
+          "coordsB": 678,
           "dashboardId": 0,
           "layer": 3,
           "fitting": null,
@@ -383,8 +383,8 @@
           "childNames": [],
           "coordsL": 137,
           "coordsR": 197,
-          "coordsT": 681,
-          "coordsB": 621,
+          "coordsT": 671,
+          "coordsB": 611,
           "dashboardId": 0,
           "layer": 3,
           "fitting": null,
@@ -485,8 +485,8 @@
           "childNames": [],
           "coordsL": 119,
           "coordsR": 215,
-          "coordsT": 610,
-          "coordsB": 514,
+          "coordsT": 507,
+          "coordsB": 411,
           "dashboardId": 0,
           "layer": 2,
           "fitting": null,
@@ -519,8 +519,8 @@
           "childNames": [],
           "coordsL": 119,
           "coordsR": 215,
-          "coordsT": 610,
-          "coordsB": 514,
+          "coordsT": 507,
+          "coordsB": 411,
           "dashboardId": 1610,
           "layer": 3,
           "fitting": null,
@@ -554,12 +554,12 @@
           "coordsL": 1225,
           "coordsR": 1425,
           "coordsT": 800,
-          "coordsB": 760,
+          "coordsB": 755,
           "dashboardId": 1050,
           "layer": 3,
           "fitting": null,
           "textContent": "",
-          "lookTemplate": "txt.scania_sd_25.valr_white",
+          "lookTemplate": "txt.scania_sd_25.valr_white2",
           "defaultValue": "00:00",
           "isVertical": false,
           "barMinValue": 0.0,
@@ -585,10 +585,10 @@
           "name": "_nameless._.eta",
           "parentName": "_nameless._.display1",
           "childNames": [],
-          "coordsL": 330,
-          "coordsR": 490,
+          "coordsL": 360,
+          "coordsR": 540,
           "coordsT": 800,
-          "coordsB": 760,
+          "coordsB": 755,
           "dashboardId": 1530,
           "layer": 3,
           "fitting": null,
@@ -620,9 +620,9 @@
           "parentName": "_nameless._.display1",
           "childNames": [],
           "coordsL": 145,
-          "coordsR": 320,
+          "coordsR": 340,
           "coordsT": 800,
-          "coordsB": 760,
+          "coordsB": 755,
           "dashboardId": 1540,
           "layer": 3,
           "fitting": null,
@@ -2873,11 +2873,43 @@
     },
     {
       "name": "txt.scania_sd_25.cid_eta",
-      "text": "<color value=FFF0DBCC><align vstyle=center hstyle=left><img src=/material/ui/dashboard/destination.mat width=25 height=32><offset hshift=10><font face=/font/db_scania_sans_cy_cond.font xscale=2.15 yscale=2.15>%0</font></align>"
+      "text": "<color value=FFF0DBCC><align vstyle=center hstyle=left><img src=/material/ui/dashboard/destination.mat width=28 height=36><offset hshift=15><font face=/font/db_scania_sans_cy_cond.font xscale=2.4 yscale=2.4>%0</font></align>"
     },
     {
       "name": "txt.scania_sd_25.cid_rest",
-      "text": "<color value=FFF0DBCC><align vstyle=center hstyle=left><img src=/material/ui/dashboard/fatigue.mat width=45 height=32><offset hshift=10><font face=/font/db_scania_sans_cy_cond.font xscale=2.15 yscale=2.15>%0</font></align>"
+      "text": "<color value=FFF0DBCC><align vstyle=center hstyle=left><img src=/material/ui/dashboard/fatigue.mat width=50 height=36><offset hshift=15><font face=/font/db_scania_sans_cy_cond.font xscale=2.4 yscale=2.4>%0</font></align>"
+    },
+    {
+      "name": "txt.scania_sd_25.spd_lmt1",
+      "text": "<color value=FFFFFFFF><img src=/material/ui/dashboard/scania_2025/display.mat xscale=stretch yscale=stretch left=0.1875 right=0.25 top=0.875 bottom=0.9375><ret><color value=FFF0DBCC><offset vshift=4><align hstyle=center vstyle=center><font face=/font/db_scania_sans_cy_cond.font xscale=3.2 yscale=3.2>%0</font></align>"
+    },
+    {
+      "name": "txt.scania_sd_25.speed1",
+      "text": "<color value=FFF0DBCC><align hstyle=center><font face=/font/db_scania_sans_cy_headline_outlined.font xscale=7.15 yscale=7.7>%0</font></align><ret><align hstyle=right><offset vshift=7 hshift=20><font face=/font/db_scania_sans_cy_cond.font xscale=1.1 yscale=1.1><color value=FF867B72>%1</font></align>"
+    },
+    {
+      "name": "txt.scania_sd_25.vall_gray1",
+      "text": "<color value=FF867B72><align hstyle=left><font face=/font/db_scania_sans_cy_cond.font xscale=2.7 yscale=2.7>%0</font></align>"
+    },
+    {
+      "name": "txt.scania_sd_25.vall_white1",
+      "text": "<color value=FFF0DBCC><align hstyle=left><font face=/font/db_scania_sans_cy_cond.font xscale=2.7 yscale=2.7>%0</font></align>"
+    },
+    {
+      "name": "txt.scania_sd_25.valr_gray1",
+      "text": "<color value=FF867B72><align hstyle=right><font face=/font/db_scania_sans_cy_cond.font xscale=2.7 yscale=2.7>%0</font></align>"
+    },
+    {
+      "name": "txt.scania_sd_25.valr_green1",
+      "text": "<color value=FFF0DBCC><align hstyle=right><font face=/font/db_scania_sans_cy_cond.font xscale=3.2 yscale=3.2>%0</font></align>"
+    },
+    {
+      "name": "txt.scania_sd_25.vall_white2",
+      "text": "<color value=FFF0DBCC><align hstyle=left><font face=/font/db_scania_sans_cy_cond.font xscale=2.4 yscale=2.4>%0</font></align>"
+    },
+    {
+      "name": "txt.scania_sd_25.valr_white2",
+      "text": "<color value=FFF0DBCC><align hstyle=right><font face=/font/db_scania_sans_cy_cond.font xscale=2.4 yscale=2.4>%0</font></align>"
     }
   ],
   "siiSourceDirectory": "D:\\SteamLibrary\\steamapps\\common\\Euro Truck Simulator 2\\ui\\dashboard",

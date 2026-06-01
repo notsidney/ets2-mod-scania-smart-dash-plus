@@ -2121,12 +2121,12 @@ ui::text_common : _nameless._.cc_speed1 {
  look_template: txt.scania_sd_25.valr_green1
  value: 80
  text: ""
- coords_l: 286
- coords_r: 419
+ coords_l: 284
+ coords_r: 417
  coords_t: 287
  coords_b: 231
- area_l: 286
- area_r: 419
+ area_l: 284
+ area_r: 417
  area_t: 287
  area_b: 231
  id: 1100

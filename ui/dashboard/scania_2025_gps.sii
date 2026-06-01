@@ -227,12 +227,12 @@ ui::text_common : _nameless._.more_btn {
  text: ""
  coords_l: 137
  coords_r: 197
- coords_t: 748
- coords_b: 688
+ coords_t: 738
+ coords_b: 678
  area_l: 137
  area_r: 197
- area_t: 748
- area_b: 688
+ area_t: 738
+ area_b: 678
  id: 0
  layer: 3
  tab: -1
@@ -246,12 +246,12 @@ ui::text_common : _nameless._.search_btn {
  text: ""
  coords_l: 137
  coords_r: 197
- coords_t: 681
- coords_b: 621
+ coords_t: 671
+ coords_b: 611
  area_l: 137
  area_r: 197
- area_t: 681
- area_b: 621
+ area_t: 671
+ area_b: 611
  id: 0
  layer: 3
  tab: -1
@@ -322,12 +322,12 @@ ui::text_common : _nameless._.g_no_spd_lmt {
  text: ""
  coords_l: 119
  coords_r: 215
- coords_t: 610
- coords_b: 514
+ coords_t: 507
+ coords_b: 411
  area_l: 119
  area_r: 215
- area_t: 610
- area_b: 514
+ area_t: 507
+ area_b: 411
  id: 0
  layer: 2
  tab: -1
@@ -341,12 +341,12 @@ ui::text_common : _nameless._.g_spd_lmt {
  text: ""
  coords_l: 119
  coords_r: 215
- coords_t: 610
- coords_b: 514
+ coords_t: 507
+ coords_b: 411
  area_l: 119
  area_r: 215
- area_t: 610
- area_b: 514
+ area_t: 507
+ area_b: 411
  id: 1610
  layer: 3
  tab: -1
@@ -355,17 +355,17 @@ ui::text_common : _nameless._.g_spd_lmt {
 }
 
 ui::text_common : _nameless._.g_clk {
- look_template: txt.scania_sd_25.valr_white
+ look_template: txt.scania_sd_25.valr_white2
  value: "00:00"
  text: ""
  coords_l: 1225
  coords_r: 1425
  coords_t: 800
- coords_b: 760
+ coords_b: 755
  area_l: 1225
  area_r: 1425
  area_t: 800
- area_b: 760
+ area_b: 755
  id: 1050
  layer: 3
  tab: -1
@@ -377,14 +377,14 @@ ui::text_common : _nameless._.eta {
  look_template: txt.scania_sd_25.cid_eta
  value: "00:00"
  text: ""
- coords_l: 330
- coords_r: 490
+ coords_l: 360
+ coords_r: 540
  coords_t: 800
- coords_b: 760
- area_l: 330
- area_r: 490
+ coords_b: 755
+ area_l: 360
+ area_r: 540
  area_t: 800
- area_b: 760
+ area_b: 755
  id: 1530
  layer: 3
  tab: -1
@@ -397,13 +397,13 @@ ui::text_common : _nameless._.rst {
  value: "00:00"
  text: ""
  coords_l: 145
- coords_r: 320
+ coords_r: 340
  coords_t: 800
- coords_b: 760
+ coords_b: 755
  area_l: 145
- area_r: 320
+ area_r: 340
  area_t: 800
- area_b: 760
+ area_b: 755
  id: 1540
  layer: 3
  tab: -1
