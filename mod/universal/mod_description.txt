@@ -1,6 +1,6 @@
 [green]Scania Smart Dash (150% Larger Text)[normal]
 
-This mod increases the text in the Scania Smart Dash by 150%.
+This mod increases the size of text and icons in the Scania Smart Dash by 150%.
 
 Additions:
 - Added low beam icon
