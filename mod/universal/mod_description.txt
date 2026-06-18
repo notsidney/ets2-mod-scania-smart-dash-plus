@@ -6,6 +6,6 @@ Additions:
 - Added low beam icon
 - Changed cruise control text to white for improved readability
 - Added speed limit to GPS module
-- Added time to rest to GPS module
+- Added mandatory rest break time to GPS module
 - Added ETA to GPS module
 - Added clock to GPS module

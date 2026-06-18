@@ -119,7 +119,7 @@ ui::text_template : txt.scania_sd_25.cid_eta {
 
 ui::text_template : txt.scania_sd_25.cid_rest {
 	name: "zDB Scania Smart Dash 2025 CID Rest"
-	text: "<color value=FFF0DBCC><align vstyle=center hstyle=left><img src=/material/ui/dashboard/fatigue.mat width=50 height=36><offset hshift=15><font face=/font/db_scania_sans_cy_cond.font xscale=2.4 yscale=2.4>%0</font></align>"
+	text: "<color value=FFF0DBCC><align vstyle=center hstyle=left><img src=/material/ui/dashboard/mandatory_break_l.mat width=37 height=37><offset hshift=15><font face=/font/db_scania_sans_cy_cond.font xscale=2.4 yscale=2.4>%0</font></align>"
 }
 
 ui::text_template : txt.scania_sd_25.cid_btn1 {

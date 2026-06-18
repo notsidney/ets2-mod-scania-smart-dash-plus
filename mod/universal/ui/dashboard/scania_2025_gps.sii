@@ -396,8 +396,8 @@ ui::text_common : _nameless._.rst {
  look_template: txt.scania_sd_25.cid_rest
  value: "00:00"
  text: ""
- coords_l: 142
- coords_r: 337
+ coords_l: 148
+ coords_r: 343
  coords_t: 800
  coords_b: 755
  area_l: 142
