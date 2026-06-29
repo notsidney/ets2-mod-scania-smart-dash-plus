@@ -33,7 +33,7 @@ ui::window : _nameless.wnd {
 
 ui::group : _nameless._.shared {
  fitting: false
- my_children: 49
+ my_children: 48
  my_children[0]: _nameless._.elec_off_bg
  my_children[1]: _nameless._.elec_on_bg
  my_children[2]: _nameless._.bcg
@@ -60,29 +60,28 @@ ui::group : _nameless._.shared {
  my_children[23]: _nameless._.rem_dist_i
  my_children[24]: _nameless._.cc_lanes
  my_children[25]: _nameless._.cc_truck
- my_children[26]: _nameless._.tripdst_i
- my_children[27]: _nameless._.adblue_i
- my_children[28]: _nameless._.adbl_bar_bcg
- my_children[29]: _nameless._.adbl_bar
- my_children[30]: _nameless._.speed
- my_children[31]: _nameless._.gear_modd
- my_children[32]: _nameless._.gear_mode
- my_children[33]: _nameless._.gear
- my_children[34]: _nameless._.range
- my_children[35]: _nameless._.clock
- my_children[36]: _nameless._.ambient_temp
- my_children[37]: _nameless._.trip_dst
- my_children[38]: _nameless._.airp_i
- my_children[39]: _nameless._.airp_bar_bcg
- my_children[40]: _nameless._.airp_bar
- my_children[41]: _nameless._.cons_avg_i
- my_children[42]: _nameless._.cons_avg
- my_children[43]: _nameless._.cons_ins_i
- my_children[44]: _nameless._.cons_ins
- my_children[45]: _nameless._.cons_ins_bcg
- my_children[46]: _nameless._.cons_ins_bar
- my_children[47]: _nameless._.low_airp
- my_children[48]: _nameless._.dmg_wrn
+ my_children[26]: _nameless._.adblue_i
+ my_children[27]: _nameless._.adbl_bar_bcg
+ my_children[28]: _nameless._.adbl_bar
+ my_children[29]: _nameless._.speed
+ my_children[30]: _nameless._.gear_modd
+ my_children[31]: _nameless._.gear_mode
+ my_children[32]: _nameless._.gear
+ my_children[33]: _nameless._.range
+ my_children[34]: _nameless._.clock
+ my_children[35]: _nameless._.ambient_temp
+ my_children[36]: _nameless._.trip_dst
+ my_children[37]: _nameless._.airp_i
+ my_children[38]: _nameless._.airp_bar_bcg
+ my_children[39]: _nameless._.airp_bar
+ my_children[40]: _nameless._.cons_avg_i
+ my_children[41]: _nameless._.cons_avg
+ my_children[42]: _nameless._.cons_ins_i
+ my_children[43]: _nameless._.cons_ins
+ my_children[44]: _nameless._.cons_ins_bcg
+ my_children[45]: _nameless._.cons_ins_bar
+ my_children[46]: _nameless._.low_airp
+ my_children[47]: _nameless._.dmg_wrn
  coords_l: 0
  coords_r: 1440
  coords_t: 540
@@ -255,7 +254,7 @@ ui::text : _nameless._.bars_nums {
 }
 
 ui::text : _nameless._.lbeam_i {
- text: "<color value=FF9FB200><img src=/material/ui/dashboard/scania_2025/display.mat xscale=stretch yscale=stretch left=0 right=0.0625 top=0.9375 bottom=1>"
+ text: "<color value=FF9FB200><img src=/material/ui/dashboard/low_beam.mat xscale=stretch yscale=stretch>"
  coords_l: 11
  coords_r: 77
  coords_t: 535
@@ -604,23 +603,6 @@ ui::text : _nameless._.cc_truck {
  my_parent: _nameless._.shared
 }
 
-ui::text : _nameless._.tripdst_i {
- text: "<color value=FFF0DBCC><img src=/material/ui/dashboard/scania_2025/display.mat xscale=stretch yscale=stretch left=0.0625 right=0.125 top=0.8125 bottom=0.875>"
- coords_l: 1000
- coords_r: 1032
- coords_t: 48
- coords_b: 16
- area_l: 1000
- area_r: 1032
- area_t: 48
- area_b: 16
- id: 0
- layer: 5
- tab: -1
- pointer: -1
- my_parent: _nameless._.shared
-}
-
 ui::text : _nameless._.adblue_i {
  text: "<color value=FFF0DBCC><img src=/material/ui/dashboard/scania_2025/display.mat xscale=stretch yscale=stretch left=0.0625 right=0.125 top=0.75 bottom=0.8125>"
  coords_l: 1274
@@ -814,11 +796,11 @@ ui::text_common : _nameless._.trip_dst {
  look_template: txt.scania_sd_25.trip_dst
  value: "92444|km"
  text: ""
- coords_l: 1032
+ coords_l: 1000
  coords_r: 1258
  coords_t: 51
  coords_b: 0
- area_l: 1032
+ area_l: 1000
  area_r: 1258
  area_t: 51
  area_b: 0
@@ -1176,8 +1158,8 @@ ui::group : _nameless._.display2 {
  my_children[4]: _nameless._.avg_spd
  my_children[5]: _nameless._.date_i
  my_children[6]: _nameless._.date
- my_children[7]: _nameless._.trip1_dst_i
- my_children[8]: _nameless._.trip1_dst
+ my_children[7]: _nameless._.odom_i
+ my_children[8]: _nameless._.odom
  coords_l: 1
  coords_r: 1441
  coords_t: 540
@@ -1318,8 +1300,8 @@ ui::text_common : _nameless._.date {
  my_parent: _nameless._.display2
 }
 
-ui::text : _nameless._.trip1_dst_i {
- text: "<color value=FFF0DBCC><img src=/material/ui/dashboard/scania_2025/display.mat xscale=stretch yscale=stretch left=0.1875 right=0.25 top=0.75 bottom=0.8125>"
+ui::text : _nameless._.odom_i {
+ text: "<color value=FFF0DBCC><img src=/material/ui/dashboard/distance.mat xscale=stretch yscale=stretch left=0.09375 right=0.90625 top=0.09375 bottom=0.90625>"
  coords_l: 582
  coords_r: 626
  coords_t: 156
@@ -1335,7 +1317,7 @@ ui::text : _nameless._.trip1_dst_i {
  my_parent: _nameless._.display2
 }
 
-ui::text_common : _nameless._.trip1_dst {
+ui::text_common : _nameless._.odom {
  look_template: txt.scania_sd_25.val2_white
  value: "92444|km"
  text: ""
@@ -1347,7 +1329,7 @@ ui::text_common : _nameless._.trip1_dst {
  area_r: 890
  area_t: 154
  area_b: 102
- id: 1210
+ id: 1030
  layer: 2
  tab: -1
  pointer: -1

@@ -84,7 +84,7 @@ ui::text_template : txt.scania_sd_25.temp {
 
 ui::text_template : txt.scania_sd_25.trip_dst {
 	name: "zDB Scania Smart Dash 2025 Trip Distance"
-	text: "<color value=FFF0DBCC><align hstyle=right><font face=/font/db_scania_sans_cy_cond.font xscale=2.15 yscale=2.15>%0</font><offset vshift=10><font face=/font/db_scania_sans_cy_cond.font xscale=1.5 yscale=1.5>.0 %1</font></align>"
+	text: "<color value=FFF0DBCC><align hstyle=right><img src=/material/ui/dashboard/scania_2025/display.mat width=36 height=36 left=0.0625 right=0.125 top=0.8125 bottom=0.875><offset hshift=16><font face=/font/db_scania_sans_cy_cond.font xscale=2.15 yscale=2.15>%0</font><offset vshift=10><font face=/font/db_scania_sans_cy_cond.font xscale=1.5 yscale=1.5>.0 %1</font></align>"
 }
 
 ui::text_template : txt.scania_sd_25.val2_bgray {
