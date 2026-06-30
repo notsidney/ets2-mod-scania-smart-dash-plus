@@ -9,6 +9,7 @@ A Euro Truck Simulator 2 mod that increases the size of text and icons in the Sc
 Additions:
 
 - Added low beam icon
+- Added odometer to page 2
 - Changed cruise control text to white for improved readability
 - Added speed limit to GPS module
 - Added mandatory rest break time to GPS module
